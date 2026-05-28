@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Gabarito;
+    src: url(../../fonts/Gabarito-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(../../fonts/playfair-display-regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../../fonts/gotham-medium.ttf);
+}
+
+

@@ -1,0 +1,69 @@
+portfolio-fotografia/
+│
+├── index.html
+├── contato.html
+├── videos.html
+├── sobre.html
+├── portfolio.html
+│
+├── assets/
+│
+│   ├── css/
+│   │
+│   │   ├── base/
+│   │   │   ├── fonts.css
+│   │   │   ├── variables.css
+│   │   │   ├── reset.css
+│   │   │   ├── global.css
+│   │   │   └── animations.css
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── header.css
+│   │   │   ├── footer.css
+│   │   │   └── navigation.css
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── home.css
+│   │   │   ├── contato.css
+│   │   │   ├── videos.css
+│   │   │   ├── sobre.css
+│   │   │   └── portfolio.css
+│   │   │
+│   │   └── components/
+│   │       ├── buttons.css
+│   │       ├── gallery.css
+│   │       ├── cards.css
+│   │       └── modal.css
+│   │
+│   ├── js/
+│   │
+│   │   ├── global/
+│   │   │   ├── main.js
+│   │   │   ├── menu.js
+│   │   │   └── animations.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── home.js
+│   │   │   ├── contato.js
+│   │   │   ├── videos.js
+│   │   │   ├── sobre.js
+│   │   │   └── portfolio.js
+│   │   │
+│   │   └── components/
+│   │       ├── slider.js
+│   │       ├── modal.js
+│   │       └── gallery.js
+│   │
+│   ├── fonts/
+│   │
+│   ├── img/
+│   │   ├── home/
+│   │   ├── portfolio/
+│   │   ├── videos/
+│   │   ├── turismo/
+│   │   ├── hoteis/
+│   │   └── imobiliario/
+│   │
+│   └── video/
+│
+└── README.md
