@@ -6,15 +6,15 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 1.5rem;
+    padding: 2rem;
 
     z-index: 1000;
 }
 
 .logo {
-    font-family: 'Stretch Pro';
-    font-size: 20px;
-    color: #C39E6D;
+    font-family: 'Gotham';
+    font-size: 1.5rem;
+    color: var(--color-golden);
     mix-blend-mode: difference;
     cursor: pointer;
     z-index: 2000;
@@ -34,7 +34,9 @@ header {
     height: 2px;
     background: #C39E6D;
     left: 0;
-    transition: 0.25s ease;
+    transition: 
+        top 0.25s ease 0.25s,
+        transform 0.25s ease;
 }
 
 .menu-toggle span:first-child {
@@ -42,17 +44,23 @@ header {
 }
 
 .menu-toggle span:last-child {
-    bottom: 5px;
+    top: 15px;
+}
+
+.menu-toggle.active span {
+    transition:
+        top 0.25s ease,
+        transform 0.25s ease 0.25s;
 }
 
 .menu-toggle.active span:first-child {
+    top: 10px;
     transform: rotate(45deg);
-    top: 10px
 }
 
 .menu-toggle.active span:last-child {
+    top: 10px;
     transform: rotate(-45deg);
-    top: 10px
 }
 
 .menu {
@@ -69,10 +77,16 @@ header {
 }
 
 .menu ul {
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    
+
+    opacity: 0;
+    transform: translateY(4rem);
 }
 
 .menu.active {
@@ -80,9 +94,10 @@ header {
     visibility: visible;
 }
 
-.menu.active {
+.menu.active ul {
     opacity: 1;
-    visibility: visible;
+    transform: translateY(0);
+    transition: opacity 0.25s ease 0.125s, transform 0.25s ease 0.125s;
 }
 
 .menu-itens {
@@ -93,7 +108,7 @@ header {
 
 .menu-itens a {
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
 
     transition: 0.25s ease;
@@ -115,7 +130,7 @@ header {
         inset: 0;
         background: none;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         opacity: 1;
@@ -129,10 +144,13 @@ header {
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
+
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .menu-itens a {
-        color: #C39E6D;
+        color: var(--color-golden);
         font-size: 20px;
         font-weight: normal;
 
@@ -140,7 +158,7 @@ header {
     }
 
     .menu-itens a:hover {
-        color: #C39E6D;
+        opacity: 0.5;
     }
 
 
