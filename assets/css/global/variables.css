@@ -1,6 +1,8 @@
 :root {
-    --font-playfair: 'Playfair Display', serif;
-    --font-gotham: 'Gotham';
+    --font-google: 'Google Sans';
+    --font-editorial: 'Editorial';
 
-    --color-golden: #C39E6D;
+    --color-golden: #a89474ff;
+    --color-dark: #0d0d0dff;
+    --color-white: #e6e6e6ff;
 }

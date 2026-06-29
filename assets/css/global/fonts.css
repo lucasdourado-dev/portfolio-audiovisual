@@ -1,16 +1,12 @@
 @font-face {
-    font-family: Gabarito;
-    src: url(../../fonts/Gabarito-Regular.ttf) format(truetype);
+    font-family: Google Sans;
+    src: url(../../fonts/GoogleSans-Regular.ttf);
 }
 
 @font-face {
-    font-family: Playfair Display;
-    src: url(../../fonts/playfair-display-regular.ttf) format(truetype);
+    font-family: Editorial;
+    src: url(../../fonts/PPEditorialNew-Regular-BF644b214ff145f.otf);
 }
 
-@font-face {
-    font-family: Gotham;
-    src: url(../../fonts/gotham-medium.ttf);
-}
 
 

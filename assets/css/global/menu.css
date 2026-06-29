@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-    font-family: 'Gotham';
+    font-family: var(--font-google);
     font-size: 1.5rem;
     color: var(--color-golden);
     mix-blend-mode: difference;
@@ -32,7 +32,7 @@ header {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #C39E6D;
+    background: var(--color-golden);
     left: 0;
     transition: 
         top 0.25s ease 0.25s,
@@ -108,18 +108,17 @@ header {
 
 .menu-itens a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: normal;
 
     transition: 0.25s ease;
 }
 
 .menu-itens a:hover {
-    color: #C39E6D;
+    color: var(--color-golden);
 }
 
 @media (min-width: 768px) {
-
 
     .menu-toggle {
         display: none;
@@ -151,7 +150,7 @@ header {
 
     .menu-itens a {
         color: var(--color-golden);
-        font-size: 20px;
+        font-size: 1rem;
         font-weight: normal;
 
         transition: 0.25s ease;

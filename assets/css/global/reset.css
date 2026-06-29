@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-playfair);
+    font-family: var(--font-google);
 }
 
 html {
@@ -32,6 +32,7 @@ button {
 }
 
 a {
+    font-weight: normal;
     text-decoration: none;
     color: inherit;
 }

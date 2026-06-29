@@ -1,0 +1,16 @@
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.galeria img{
+    width:100%;
+    display:block;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.galeria img:hover{
+    transform:scale(1.01);  
+}
