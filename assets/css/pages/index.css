@@ -7,6 +7,7 @@ body {
 }
 
 main {
+    height: 100vh;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -34,20 +35,40 @@ main {
 #main-name { align-self: center; }
 #last-name { align-self: flex-end; }
 
+#f-name {
+    animation: fadeIn 1s ease-in-out 1.25s forwards,
+               toLeftSlide 1s cubic-bezier(0.25, 1, 0.4, 1) 1.25s forwards;
+}
+
 #main-name {
     animation: fadeIn 1s ease-in-out 1.25s forwards,
-               goldenTransition 1s ease-in-out 2s forwards;
+               goldenTransition 1s ease-out 2s forwards;
+}
+
+#last-name {
+    animation: fadeIn 1s ease-in-out 1.25s forwards,
+               toRightSlide 1s cubic-bezier(0.25, 1, 0.4, 1) 1.25s forwards;
 }
 
 p {
     color: white;
     opacity: 0;
-    animation: fadeIn 1s ease-in-out 2s forwards;
+    animation: fadeIn 1s ease-out 3.25s forwards;
 }
 
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+@keyframes toLeftSlide {
+    from {transform: translateX(200px);}
+    to {transform: translateX(0);}
+}
+
+@keyframes toRightSlide {
+    from {transform: translateX(-200px);}
+    to {transform: translateX(0);}
 }
 
 @keyframes goldenTransition {
@@ -127,6 +148,10 @@ header {
     font-weight: normal;
 
     transition: 0.25s ease;
+}
+
+.active-page a {
+    color: var(--color-golden);
 }
 
 .menu-itens a:hover {

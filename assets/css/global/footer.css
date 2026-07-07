@@ -1,0 +1,54 @@
+footer {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2000;
+}
+
+#footer-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-texts {
+    color: var(--color-golden);
+}
+
+#contact-link {
+    animation: blink 3.5s infinite ease-in-out;
+}
+
+@keyframes blink {
+    0% {color: white;}
+    25% {color: var(--color-golden);}
+    75%, 100% {color: white;}
+}
+
+#footer-logo {
+    cursor: pointer;
+    color: var(--color-golden);
+    font-size: 20vw;
+    line-height: 0.7;
+    margin-top: 2rem;
+    margin-bottom: -8vw; 
+}
+
+/* Coloque essa classe em TODOS os containers que você quer que apareçam aos poucos */
+.hidden-scroll {
+    opacity: 0;
+    transform: translateY(40px); /* Começa um pouco mais abaixo */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, transform; /* Otimiza a performance no mobile */
+}
+
+/* Classe que o JavaScript vai adicionar quando o elemento surgir na tela */
+.show-scroll {
+    opacity: 1;
+    transform: translateY(0); /* Volta para a posição original dele */
+}
+

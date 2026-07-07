@@ -1,0 +1,13 @@
+.transition {
+    position: fixed;
+    inset: 0;
+    background: black;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform .5s cubic-bezier(.86,0,.83,.67);
+    z-index: 9999;
+}
+
+.transition.active {
+    transform: scaleY(1);
+}

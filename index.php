@@ -1,4 +1,5 @@
 <?php
+    $cssPage = 'index.css';
     require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -7,8 +8,11 @@
 <header>
     <nav class="menu">
         <ul>
-            <li class="menu-itens"><a href="#">FOTO</a></li>
-            <li class="menu-itens"><a href="#">VÍDEO</a></li>
+            <li class="menu-itens active-page"><a href="<?= $basePath; ?>/index.php">HOME</a></li>
+        </ul>
+        <ul>
+            <li class="menu-itens"><a href="./pages/foto.php">FOTO</a></li>
+            <li class="menu-itens"><a href="#">VIDEO</a></li>
             <li class="menu-itens"><a href="#">DESIGN</a></li>
         </ul>
         <ul>

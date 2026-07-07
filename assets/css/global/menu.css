@@ -3,12 +3,58 @@ header {
     inset: 0 0 auto 0;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 
     padding: 2rem;
 
+    z-index: 9999;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
     z-index: 1000;
+    
+    opacity: 0;
+    pointer-events: none;
+    
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Quando o JS adicionar esta classe, a tela escurece e bloqueia cliques */
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.top-bar {
+    opacity: 0;
+    height: 2rem;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    z-index: 2000;
+
+    animation: fadeIn 1s ease-in-out 2.25s forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .logo {
@@ -17,15 +63,12 @@ header {
     color: var(--color-golden);
     mix-blend-mode: difference;
     cursor: pointer;
-    z-index: 2000;
 }
 
 .menu-toggle {
     position: relative;
-    width: 40px;
+    width: 20px;
     height: 20px;
-
-    z-index: 2000;
 }
 
 .menu-toggle span {
@@ -66,7 +109,7 @@ header {
 .menu {
     position: fixed;
     inset: 0;
-    background: #000000;
+    /* background: #000000; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,6 +117,8 @@ header {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.25s ease, visibility 0.5s ease;
+
+    z-index: 1500;
 }
 
 .menu ul {
@@ -112,6 +157,10 @@ header {
     font-weight: normal;
 
     transition: 0.25s ease;
+}
+
+.active-page a {
+    color: var(--color-golden);
 }
 
 .menu-itens a:hover {
@@ -159,9 +208,10 @@ header {
     .menu-itens a:hover {
         opacity: 0.5;
     }
-
-
 }
+
+
+
 
 
 
