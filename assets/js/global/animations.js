@@ -1,44 +1,57 @@
-// ESTUDAR
-
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Seleciona todos os elementos que têm a classe de esconder
     const elementsToAnimate = document.querySelectorAll('.hidden-scroll');
 
-    // 2. Configura as regras do "observador"
     const observerOptions = {
-        root: null, // Usa a tela do navegador como referência
-        rootMargin: "0px", 
-        threshold: 0.35 // Dispara a animação quando 15% do elemento estiver visível
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.25 // Dispara logo que 15% do elemento entra na tela
     };
 
-    // 3. Cria a lógica que adiciona a classe de exibição
-    const scrollObserver = new IntersectionObserver((entries, observer) => {
+    const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
+            const rect = entry.boundingClientRect;
+
             if (entry.isIntersecting) {
+                // Se está visível na tela, ativa a animação/exibição
                 entry.target.classList.add('show-scroll');
-                // Opcional: para a animação rodar apenas UMA vez, descomente a linha abaixo:
-                // observer.unobserve(entry.target); 
             } else {
-                // Se quiser que o elemento suma de novo ao rolar para cima, mantenha essa linha:
-                entry.target.classList.remove('show-scroll');
+                // Se SAIU da tela, testamos por onde ele saiu:
+                // Se rect.top > 0, significa que ele saiu pela parte INFERIOR da tela (rolando para cima).
+                if (rect.top > 0) {
+                    entry.target.classList.remove('show-scroll');
+                }
+                // Se rect.top <= 0, significa que ele saiu pelo TOPO da tela.
+                // Nesse caso, NÃO removemos a classe 'show-scroll', mantendo-o visível 
+                // e evitando animações indesejadas na parte superior.
             }
         });
     }, observerOptions);
 
-    // 4. Diz ao observador para vigiar cada um dos elementos
     elementsToAnimate.forEach(element => scrollObserver.observe(element));
 });
 
-const transition = document.querySelector('.transition');
+// Delegação de clique para tratar transição entre páginas
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (!link) return;
 
-document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', e => {
-        e.preventDefault();
+    const href = link.getAttribute('href');
+    // Ignora âncoras internas, links sem href, protocolos especiais e links que abrem em nova aba
+    if (!href || href.startsWith('#') || href.startsWith('mailto:') || href.startsWith('tel:') || link.target === '_blank') return;
 
-        transition.classList.add('active');
+    // Não interfere quando o usuário usa modifiers para abrir em nova aba/ação
+    if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
 
-        setTimeout(() => {
-            window.location.href = link.href;
-        }, 500);
-    });
+    // Não interferir com lightboxes/third-party (ex: Fancybox)
+    if (link.hasAttribute('data-fancybox')) return;
+
+    const transition = document.querySelector('.transition-leaving');
+    if (!transition) return; // se o elemento não existir, não bloqueia a navegação
+
+    e.preventDefault();
+    transition.classList.add('active');
+
+    setTimeout(() => {
+        window.location.href = link.href;
+    }, 500);
 });

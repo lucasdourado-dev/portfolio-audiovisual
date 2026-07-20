@@ -1,5 +1,9 @@
+.top-bar {
+    animation: fadeIn 1.25s ease-in-out forwards;
+}
+
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 main {
@@ -11,7 +15,7 @@ main {
 #category-title {
     margin: 96px 0 32px 0;
     color: var(--color-golden);
-    font-size: 1.5rem;
+    font-size: clamp(3rem, 4vw + 1rem, 5rem);
     animation: slideDown 1s cubic-bezier(0.25, 1, 0.4, 1) forwards;
 }
 
@@ -26,6 +30,8 @@ main {
     column-count: 2;
     column-gap: 5px;
     gap: 5px;
+
+    padding-bottom: 4rem;
 }
 
 .gallery-item {
@@ -49,7 +55,7 @@ main {
 
 .is-left, .f-button{
     display: none !important;
-}
+} 
 
 /* .f-button[title="Close"] {
     display: flex !important;
@@ -59,7 +65,7 @@ main {
 
 .f-button[title="Close"]:hover {
     background: none !important;
-} */
+}
 
 
 

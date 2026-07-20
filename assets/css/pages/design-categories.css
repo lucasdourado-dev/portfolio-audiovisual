@@ -1,0 +1,131 @@
+.top-bar {
+    animation: none;
+    opacity: 1;
+    /* já vejo */
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#category-title {
+    text-align: center;
+    margin: 96px 0 32px 0;
+    color: var(--color-golden);
+    font-size: clamp(3rem, 4vw + 1rem, 5rem);
+    animation: slideDown 1s cubic-bezier(0.25, 1, 0.4, 1) forwards;
+}
+
+@keyframes slideDown {
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0);}
+}
+
+#category-container {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories-links {
+    padding: 1rem;
+    width: 100vw;
+    max-width: 460px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1rem;
+}
+
+#category-link-2 {
+    align-self: flex-end;
+}
+
+.categories-title {
+    font-family: var(--font-google);
+    font-size: 2rem;
+    color: white;
+}
+
+.categories-subtitle {
+    margin: 0.2rem 0 0.8rem 0;
+    font-family: var(--font-google);
+    font-size: 1rem;
+    color: rgb(83, 83, 83);
+}
+
+#category-link-1 .categories-title,
+#category-link-1 .categories-subtitle,
+#category-link-1 .categories-preview {
+    align-self: flex-start;
+}
+
+#category-link-2 .categories-title,
+#category-link-2 .categories-subtitle,
+#category-link-2 .categories-preview {
+    align-self: flex-end;
+}
+
+.categories-preview {
+    border-radius: 0.5rem;
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    aspect-ratio: 3/2;
+    display: flex;
+    justify-content: center;
+}
+
+.categories-preview img {
+
+    border-radius: 0.5rem;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Não distorce a imagem do portfólio */
+    opacity: 1;
+    
+    /* Animação de fade de 12 segundos totais */
+    /* animation: fadeCategories 20s infinite ease-in-out; */
+}
+
+.categories-preview video {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Coloque essa classe em TODOS os containers que você quer que apareçam aos poucos */
+.hidden-scroll {
+    opacity: 0;
+    transform: translateY(40px); /* Começa um pouco mais abaixo */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, transform; /* Otimiza a performance no mobile */
+}
+
+/* Classe que o JavaScript vai adicionar quando o elemento surgir na tela */
+.show-scroll {
+    opacity: 1;
+    transform: translateY(0); /* Volta para a posição original dele */
+}
