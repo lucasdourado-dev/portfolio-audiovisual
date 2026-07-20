@@ -1,5 +1,16 @@
 <?php
-    $basePath = '/portfolio-audiovisual';
+    // Detecta se esta rodando localmente (XAMPP) ou no servidor de producao (Render)
+    $isLocalhost = in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1', '::1']) 
+                   || ($_SERVER['HTTP_HOST'] ?? '') === 'localhost';
+
+    // Se for Localhost (XAMPP), usa a subpasta. Se for Producao (Render), usa caminho relativo da raiz.
+    $basePath = $isLocalhost ? '/portfolio-audiovisual' : '';
+
+    // Define a raiz fisica do projeto no servidor para carregar o filemtime sem erros
+    $rootDir = dirname(__DIR__);
+
+    
+    // $basePath = '/portfolio-audiovisual';
 ?>
 <!DOCTYPE html>
 <html lang="en">
