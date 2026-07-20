@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#names {
+    margin: auto;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    gap: 0;
+}
+
+.name {
+    color: white;
+    font-size: clamp(4rem, 12vw, 20rem);
+    line-height: 0.85;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 1.25s forwards;
+    cursor: pointer;
+}
+
+#f-name { align-self: flex-start; }
+#main-name { align-self: center; }
+#last-name { align-self: flex-end; }
+
+#f-name {
+    animation: fadeIn 1s ease-in-out 1.25s forwards,
+               toLeftSlide 1s cubic-bezier(0.25, 1, 0.4, 1) 1.25s forwards;
+}
+
+#main-name {
+    animation: fadeIn 1s ease-in-out 1.25s forwards,
+               goldenTransition 1s ease-out 2s forwards;
+}
+
+#last-name {
+    animation: fadeIn 1s ease-in-out 1.25s forwards,
+               toRightSlide 1s cubic-bezier(0.25, 1, 0.4, 1) 1.25s forwards;
+}
+
+/* p {
+    color: white;
+    opacity: 0;
+    animation: fadeIn 1s ease-out 3.25s forwards;
+} */
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes toLeftSlide {
+    from {transform: translateX(200px);}
+    to {transform: translateX(0);}
+}
+
+@keyframes toRightSlide {
+    from {transform: translateX(-200px);}
+    to {transform: translateX(0);}
+}
+
+@keyframes goldenTransition {
+    from {color: white;}
+    to {color: var(--color-golden);}
+}
+
+/* #start-button {
+    transition: 0.25s ease;
+}
+
+#start-button:hover {
+    color: var(--color-golden);
+} */
+
+/* TESTANDO PARA O MENU */
+
+/* header {
+    position: fixed;
+    inset: 0 0 auto 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem;
+
+    z-index: 1000;
+}
+
+.menu {
+    position: fixed;
+    inset: 0;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s ease, visibility 0.5s ease;
+}
+
+.menu ul {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    opacity: 0;
+    transform: translateY(4rem);
+}
+
+.menu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu.active ul {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.25s ease 0.125s, transform 0.25s ease 0.125s;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu-itens a {
+    color: white;
+    font-size: 2rem;
+    font-weight: normal;
+
+    transition: 0.25s ease;
+}
+
+.active-page a {
+    color: var(--color-golden);
+}
+
+.menu-itens a:hover {
+    color: var(--color-golden);
+} */
+
+
+
+
+
+
+

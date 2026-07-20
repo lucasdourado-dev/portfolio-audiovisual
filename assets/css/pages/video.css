@@ -1,0 +1,8 @@
+.categories {
+    padding: 16px;
+    align-items: center;
+}
+
+.categories-preview {
+    aspect-ratio: 16/9;
+}

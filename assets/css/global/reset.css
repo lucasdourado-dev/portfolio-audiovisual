@@ -2,7 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--font-fourth);
+    font-family: var(--font-google);
+}
+
+/* O asterisco (*) seleciona absolutamente todas as tags do HTML */
+*, *::before, *::after {
+    &::-webkit-scrollbar {
+        display: none !important;
+    }
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
 }
 
 html {
@@ -13,6 +22,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden; 
 }
 
 img, picture, video, canvas, svg {
@@ -32,6 +42,7 @@ button {
 }
 
 a {
+    font-weight: normal;
     text-decoration: none;
     color: inherit;
 }

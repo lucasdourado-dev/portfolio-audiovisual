@@ -1,0 +1,35 @@
+.transition-leaving {
+    position: fixed;
+    inset: 0;
+    background: black;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform .5s cubic-bezier(.86,0,.83,.67);
+    z-index: 9999;
+    pointer-events: none; /* não bloqueia cliques quando oculto */
+}
+
+.transition-leaving.active {
+    transform: scaleY(1);
+    pointer-events: auto; /* permite bloquear interações durante a transição */
+}
+
+.transition-entering {
+    position: fixed;
+    inset: 0;
+    background: black;
+    transform: scaleY(1); 
+    transform-origin: top; 
+    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) .5s forwards;
+    z-index: 9999;
+    pointer-events: auto;
+}
+
+/* .transition-entering.active {
+    transform: scaleY(0);
+} */
+
+@keyframes slideUpTransition {
+    from {transform: scaleY(1);}
+    to {transform: scaleY(0);}
+}

@@ -1,0 +1,100 @@
+.top-bar {
+    animation: fadeIn 1.25s ease-in-out forwards;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expo-container {
+    max-width: 1000px;
+}
+
+.expo-frames {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+
+.expo-frames img,
+.expo-frames video {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#video-1, #video-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4/3;
+}
+
+#video-1 video, #video-2 video {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+#video-1 {
+    background-color: black;
+}
+
+#video-2 {
+    background-color: white;
+}
+
+.expo-frames-posts-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.expo-frames-posts {
+    aspect-ratio: 4/5;
+    width: 50%;
+}
+
+#overview {
+    margin-top: 10vh;
+    width: 90vw;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#overview div {
+    align-self: flex-start;
+    color: white;
+}
+
+#description-title, #overview-tools div {
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+}
+
+@keyframes blink {
+    0% {color: white;}
+    25% {color: var(--color-golden);}
+    75%, 100% {color: white;}
+}
+
+@media (min-width: 768px) {
+    #overview {
+        flex-direction: row;
+    }
+}

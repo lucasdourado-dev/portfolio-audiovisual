@@ -1,0 +1,46 @@
+.transition-entering {
+    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) 1s forwards;
+    /* ver depois */
+}
+
+#category-link-1 .categories-title,
+#category-link-1 .categories-subtitle,
+#category-link-1 .categories-preview {
+    align-self: flex-start;
+}
+
+#category-link-2 .categories-title,
+#category-link-2 .categories-subtitle,
+#category-link-2 .categories-preview {
+    align-self: flex-end;
+}
+
+.categories-preview img {
+
+    border-radius: 0.5rem;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Não distorce a imagem do portfólio */
+    opacity: 0;
+    
+    /* Animação de fade de 12 segundos totais */
+    animation: fadeCategories 20s infinite ease-in-out;
+}
+
+.categories-preview img:nth-child(1) { animation-delay: 0s; }
+.categories-preview img:nth-child(2) { animation-delay: 4s; }
+.categories-preview img:nth-child(3) { animation-delay: 8s; }
+.categories-preview img:nth-child(4) { animation-delay: 12s; }
+.categories-preview img:nth-child(5) { animation-delay: 16s; }
+
+@keyframes fadeCategories {
+    0% { opacity: 0; }
+    2% { opacity: 1; }   /* Transição de entrada suave */
+    18% { opacity: 1; }  /* Tempo que a foto fica estática aparecendo */
+    20% { opacity: 0; }  /* Transição de saída suave */
+    100% { opacity: 0; }
+}
+
+

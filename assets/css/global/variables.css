@@ -1,5 +1,8 @@
 :root {
-    --font-first: 'Gabarito', sans-serif;
-    --font-second: 'Playfair Display', serif;
-    --font-fourth: 'Gotham';
+    --font-google: 'Google Sans';
+    --font-editorial: 'Editorial';
+
+    --color-golden: #a89474ff;
+    --color-dark: #0d0d0dff;
+    --color-white: #e6e6e6ff;
 }
