@@ -16,13 +16,15 @@ body {
     position: fixed;
     color: white;
     opacity: 0;
-    font-family: var(--font-google);    
+    font-family: var(--font-main);    
     font-size: clamp(4rem, 12vw, 20rem);
+    line-height: 0.85;
     animation: fadeIn 1s ease-in-out 1s forwards,
                goldenTransition 1s ease-out 2s forwards;
 }
 
 #swipe-up {
+    cursor: default;
     font-size: 2rem;
     position: fixed;
     opacity: 0;
@@ -84,14 +86,14 @@ body {
 
 .categories-links .categories-title {
     margin-bottom: 1rem;
-    font-family: var(--font-google);
+    font-family: var(--font-main);
     font-size: 2rem;
     color: white;
 }
 
 .categories-subtitle {
     margin: 0.2rem 0 0.8rem 0;
-    font-family: var(--font-google);
+    font-family: var(--font-main);
     font-size: 1rem;
     color: rgb(83, 83, 83);
 }

@@ -26,17 +26,11 @@
         <div class="expo-frames">
             <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/6.jpg" alt="">
         </div>
-        <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/7.jpg" alt="">
-        </div>
-        <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/8.jpg" alt="">
-        </div>
         
     </section>
     <div id="overview">
         <div id="overview-description">
-            <div id="description-title">Cross UNI - 2025</div>
+            <div id="description-title">Cross UNI / 2025</div>
             <div id="description-text">
                 Criação de logotipo e paleta de cores para o Cross UNI, ministério de universitários da juventude Cross, da Igreja Batista do Bacacheri, em Curitiba.
             </div>

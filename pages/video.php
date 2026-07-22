@@ -8,7 +8,7 @@
 <main>
     <section id="intro-container">
         <div id="page-title">
-            <div>VIDEO</div>
+            <div>VÍDEO</div>
         </div>
         <div id="swipe-up">^</div>
     </section>

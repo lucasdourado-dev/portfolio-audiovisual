@@ -16,7 +16,7 @@
         <div class="categories" id="category1">
             <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/foto-categories/cat1.php">
 
-                <div class="categories-title" id="category1-title">Externo</div>
+                <div class="categories-title" id="category1-title">EXTERNO</div>
                 <!-- <div class="categories-subtitle" id="category1-subtitle">Ambientes externos e natureza</div> -->
 
                 <div class="categories-preview">
@@ -32,7 +32,7 @@
 
         <div class="categories" id="category2">
             <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath; ?>/pages/foto-categories/cat2.php">
-                <div class="categories-title" id="category1-title">Casais</div>
+                <div class="categories-title" id="category1-title">CASAIS</div>
                 <!-- <div class="categories-subtitle" id="category2-subtitle">Casamentos civis e ensaios fotográficos</div> -->
 
                 <div class="categories-preview">

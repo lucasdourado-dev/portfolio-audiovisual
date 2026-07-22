@@ -18,7 +18,7 @@
         <div class="categories" id="category1">
             <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/design-categories/cat1.php">
 
-                <div class="categories-title" id="category1-title">Identidade Visual</div>
+                <div class="categories-title" id="category1-title">IDENTIDADE VISUAL</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/up/iphone-mockup.png" alt="">
@@ -32,7 +32,7 @@
 
         <div class="categories" id="category2">
             <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath ?>/pages/design-categories/cat2.php">
-                <div class="categories-title" id="category1-title">Camisas</div>
+                <div class="categories-title" id="category1-title">CAMISAS</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/capa.png" alt="">
@@ -43,7 +43,7 @@
 
         <div class="categories" id="category3">
             <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath ?>/pages/design-categories/redesign.php">
-                <div class="categories-title" id="category1-title">Redesign de Futebol</div>
+                <div class="categories-title" id="category1-title">REDESIGNS DE FUTEBOL</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bordeaux.jpg" alt="">

@@ -19,6 +19,7 @@ main {
     margin: 96px 0 32px 0;
     color: var(--color-golden);
     font-size: clamp(3rem, 4vw + 1rem, 5rem);
+    line-height: 0.85;
     animation: slideDown 1s cubic-bezier(0.25, 1, 0.4, 1) forwards;
 }
 
@@ -63,7 +64,7 @@ main {
 
 .categories-links .categories-title {
     margin-bottom: 1rem;
-    font-family: var(--font-google);
+    font-family: var(--font-main);
     font-size: 2rem;
     color: white;
 }

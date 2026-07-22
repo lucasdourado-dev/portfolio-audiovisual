@@ -12,7 +12,7 @@
 
         <div class="categories" id="category1">
             <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/design-categories/cat2-pages/cordeiro-de-deus.php">
-                <div class="categories-title" id="category1-title">Cordeiro de Deus</div>
+                <div class="categories-title" id="category1-title">CORDEIRO DE DEUS</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/03.png" alt="">
@@ -23,7 +23,7 @@
         <div class="categories" id="category2">
             <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath; ?>/pages/design-categories/cat2-pages/manto-da-gloria.php">
 
-                <div class="categories-title" id="category1-title">Manto da Glória</div>
+                <div class="categories-title" id="category1-title">MANTO DA GLÓRIA</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/capa.png" alt="">

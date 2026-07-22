@@ -31,7 +31,7 @@
                     <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">PESSOAL</a>
                 </li>
                 <li class="contact-itens">
-                    <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">FOTO & VIDEO</a>
+                    <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">FOTO E VIDEO</a>
                 </li>
                 <li class="contact-itens">
                     <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">DESIGN</a>

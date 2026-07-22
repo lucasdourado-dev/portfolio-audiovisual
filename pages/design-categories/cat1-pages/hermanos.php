@@ -36,7 +36,7 @@
     </section>
     <div id="overview">
         <div id="overview-description">
-            <div id="description-title">Hermanos Barbearia</div>
+            <div id="description-title">Hermanos Barbearia / 2025</div>
             <div id="description-text">
                 Rebranding realizado como proposta para a barbearia Hermanos, localizada em Curitiba, visando a atualização do visual e melhor adaptação às diferentes aplicações atuais. <br>
                 O projeto inclui uma nova logo acompanhada de uma tipografia totalmente autoral, além da confecção de um pattern retirado dos traçados da fonte.
