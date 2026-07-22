@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #303131;
+    background-color: #043674;
 }
 
 main {
@@ -15,6 +15,7 @@ main {
 
 #expo-container {
     padding: 0.5rem;
+    margin-top: 32px;
     max-width: 1000px;
 }
 
@@ -43,15 +44,19 @@ main {
 
 #overview div {
     align-self: flex-start;
-    color: white;
+    color: #fffacd;
 }
 
 #description-title, #overview-tools div {
     font-size: 1.5rem;
 }
 
+#be-account {
+    color: var(--color-golden);
+}
+
 footer{
-    background-color: #303131;
+    background-color: #043674;
 }
 
 @keyframes blink {

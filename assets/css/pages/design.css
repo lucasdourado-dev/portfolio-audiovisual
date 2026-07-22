@@ -10,6 +10,12 @@
     align-self: flex-end;
 }
 
+#category-link-3 .categories-title,
+#category-link-3 .categories-subtitle,
+#category-link-3 .categories-preview {
+    align-self: flex-start;
+}
+
 .categories-preview img {
     border-radius: 0.5rem;
     position: absolute;
@@ -20,18 +26,71 @@
     opacity: 0;
 }
 
-#category1 img,
-#category2 img {
-    /* Animação de fade de 12 segundos totais */
-    animation: fadeCategories 10s infinite ease-in-out;
+ /* --- CONFIGURAÇÃO DA CATEGORIA 1 (3 Fotos | 3.33s por foto) --- */
+#category1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeCat1 10s infinite;
 }
 
 #category1 img:nth-child(1) { animation-delay: 0s; }
-#category1 img:nth-child(2) { animation-delay: 5s; }
+#category1 img:nth-child(2) { animation-delay: 3.33s; }
+#category1 img:nth-child(3) { animation-delay: 6.66s; }
+
+@keyframes fadeCat1 {
+    0% { opacity: 0; }
+    3% { opacity: 1; }    /* Entra em ~0.3s */
+    30% { opacity: 1; }   /* Fica visível até 3s */
+    33.3% { opacity: 0; } /* Esconde em 3.33s */
+    100% { opacity: 0; }
+}
+
+
+/* --- CONFIGURAÇÃO DA CATEGORIA 2 (2 Fotos | 5s por foto) --- */
+#category2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeCat2 10s infinite;
+}
 
 #category2 img:nth-child(1) { animation-delay: 0s; }
 #category2 img:nth-child(2) { animation-delay: 5s; }
 
+@keyframes fadeCat2 {
+    0% { opacity: 0; }
+    4% { opacity: 1; }   /* Entra em 0.4s */
+    46% { opacity: 1; }  /* Fica visível até 4.6s */
+    50% { opacity: 0; }  /* Esconde em 5s */
+    100% { opacity: 0; }
+}
+
+
+/* --- CONFIGURAÇÃO DA CATEGORIA 3 (5 Fotos | 2s por foto) --- */
+#category3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: fadeCat3 10s infinite;
+}
+
+#category3 img:nth-child(1) { animation-delay: 0s; }
+#category3 img:nth-child(2) { animation-delay: 2s; }
+#category3 img:nth-child(3) { animation-delay: 4s; }
+#category3 img:nth-child(4) { animation-delay: 6s; }
+#category3 img:nth-child(5) { animation-delay: 8s; }
+
+@keyframes fadeCat3 {
+    0% { opacity: 0; }
+    2% { opacity: 1; }   /* Entra em 0.2s */
+    18% { opacity: 1; }  /* Fica visível até 1.8s */
+    20% { opacity: 0; }  /* Esconde em 2s */
+    100% { opacity: 0; }
+}
 
 @keyframes fadeCategories {
     0% { opacity: 0; }

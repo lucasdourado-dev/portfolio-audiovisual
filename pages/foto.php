@@ -9,7 +9,7 @@
 <main>
     <section id="intro-container">
         <div id="page-title">FOTO</div>
-        <div id="swipe-up">ARRASTE</div>
+        <div id="swipe-up">^</div>
     </section>
 
     <section id="category-container">

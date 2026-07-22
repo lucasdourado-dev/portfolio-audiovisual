@@ -11,7 +11,7 @@
         <div id="page-title">
             <div>VIDEO</div>
         </div>
-        <div id="swipe-up">ARRASTE</div>
+        <div id="swipe-up">^</div>
     </section>
 
     <section id="category-container">
