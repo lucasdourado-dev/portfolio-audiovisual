@@ -7,6 +7,7 @@ body {
 }
 
 main {
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -50,11 +51,15 @@ main {
                toRightSlide 1s cubic-bezier(0.25, 1, 0.4, 1) 1.25s forwards;
 }
 
-/* p {
+#legend {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     opacity: 0;
-    animation: fadeIn 1s ease-out 3.25s forwards;
-} */
+    animation: fadeIn 1s ease-out 2.25s forwards;
+}
 
 @keyframes fadeIn {
     from {opacity: 0;}

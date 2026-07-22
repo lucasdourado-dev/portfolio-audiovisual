@@ -1,16 +1,4 @@
 <?php
-    // PRIMEIRA SOLUCAO
-
-    // // Detecta se esta rodando localmente (XAMPP) ou no servidor de producao (Render)
-    // $isLocalhost = in_array($_SERVER['REMOTE_ADDR'] ?? '', ['127.0.0.1', '::1']) 
-    //                || ($_SERVER['HTTP_HOST'] ?? '') === 'localhost';
-
-    // // Se for Localhost (XAMPP), usa a subpasta. Se for Producao (Render), usa caminho relativo da raiz.
-    // $basePath = $isLocalhost ? '/portfolio-audiovisual' : '';
-
-    // // Define a raiz fisica do projeto no servidor para carregar o filemtime sem erros
-    // $rootDir = dirname(__DIR__);
-
     // SEGUNDA SOLUCAO
 
     // 1. Detecta o ambiente (Localhost XAMPP vs Servidor de Produção)
@@ -33,7 +21,7 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

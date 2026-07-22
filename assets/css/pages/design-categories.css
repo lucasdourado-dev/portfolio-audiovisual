@@ -57,21 +57,15 @@ main {
     margin-bottom: 1rem;
 }
 
-#category-link-2 {
+#category-link-2, #category-link-4 {
     align-self: flex-end;
 }
 
-.categories-title {
+.categories-links .categories-title {
+    margin-bottom: 1rem;
     font-family: var(--font-google);
     font-size: 2rem;
     color: white;
-}
-
-.categories-subtitle {
-    margin: 0.2rem 0 0.8rem 0;
-    font-family: var(--font-google);
-    font-size: 1rem;
-    color: rgb(83, 83, 83);
 }
 
 #category-link-1 .categories-title,
@@ -83,6 +77,18 @@ main {
 #category-link-2 .categories-title,
 #category-link-2 .categories-subtitle,
 #category-link-2 .categories-preview {
+    align-self: flex-end;
+}
+
+#category-link-3 .categories-title,
+#category-link-3 .categories-subtitle,
+#category-link-3 .categories-preview {
+    align-self: flex-start;
+}
+
+#category-link-4 .categories-title,
+#category-link-4 .categories-subtitle,
+#category-link-4 .categories-preview {
     align-self: flex-end;
 }
 

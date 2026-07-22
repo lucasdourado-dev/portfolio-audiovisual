@@ -1,7 +1,6 @@
 <?php
     $activePage = 'foto';
     $cssPage = 'foto.css';
-    $basePath = '/portfolio-audiovisual';
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -9,7 +8,7 @@
 <main>
     <section id="intro-container">
         <div id="page-title">FOTO</div>
-        <div id="swipe-up">ARRASTE</div>
+        <div id="swipe-up">^</div>
     </section>
 
     <section id="category-container">

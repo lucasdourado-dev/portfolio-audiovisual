@@ -23,6 +23,7 @@ body {
 }
 
 #swipe-up {
+    font-size: 2rem;
     position: fixed;
     opacity: 0;
     bottom: 2rem;
@@ -81,7 +82,8 @@ body {
     align-self: flex-end;
 }
 
-.categories-title {
+.categories-links .categories-title {
+    margin-bottom: 1rem;
     font-family: var(--font-google);
     font-size: 2rem;
     color: white;

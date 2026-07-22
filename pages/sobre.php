@@ -1,7 +1,6 @@
 <?php
     $activePage = 'sobre';
     $cssPage = 'sobre.css';
-    $basePath = '/portfolio-audiovisual';
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -11,7 +10,7 @@
         <div id="page-title">
             <div>SOBRE MIM</div>
         </div>
-        <div id="swipe-up">ARRASTE</div>
+        <div id="swipe-up">^</div>
     </section>
 
     <section id="about-container">

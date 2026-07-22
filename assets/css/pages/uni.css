@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #303131;
+    background-color: #240046ff;
 }
 
 main {
@@ -15,6 +15,7 @@ main {
 
 #expo-container {
     padding: 0.5rem;
+    margin-top: 32px;
     max-width: 1000px;
 }
 
@@ -23,11 +24,45 @@ main {
     margin-bottom: 0.5rem;
 }
 
-.expo-frames img {
+
+.expo-frames img,
+.expo-frames video {
     display: block;
     width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+#video-1, #video-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4/3;
+}
+
+#video-1 video, #video-2 video {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+#video-1 {
+    background-color: black;
+}
+
+#video-2 {
+    background-color: white;
+}
+
+.expo-frames-posts-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.expo-frames-posts {
+    aspect-ratio: 4/5;
+    width: 50%;
 }
 
 #overview {
@@ -51,7 +86,7 @@ main {
 }
 
 footer{
-    background-color: #303131;
+    background-color: #240046ff;
 }
 
 @keyframes blink {

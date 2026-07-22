@@ -11,13 +11,26 @@
         <div class="name" id="main-name">DOURADO</div>
         <div class="name" id="last-name">MARTINS</div>
     </div>
-    <!-- <p id=""> 
-        TEXTO EXEMPLO
-    </p> -->
+    <p id="legend"> 
+        PORTFÓLIO PESSOAL
+    </p>
 </main>
 
 <?php 
-    // $pageJs = "./assets/js/pages/index.js";
     $menu = $basePath . '/assets/js/global/menu.js';
-    require_once __DIR__ . '/includes/footer.php';
 ?>
+
+    <div class="transition-leaving"></div>
+
+    <?php if (isset($pageJs)): ?>
+        <script src="<?php echo $pageJs; ?>"></script>
+    <?php endif; ?>
+
+    <?php if (isset($menu)): ?>
+        <script src="<?php echo $menu; ?>"></script>
+    <?php endif; ?>
+
+    <script src="<?= $basePath; ?>/assets/js/global/animations.js"></script>
+
+    </body>
+</html>

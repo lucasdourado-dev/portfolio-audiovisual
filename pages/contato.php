@@ -1,7 +1,6 @@
 <?php
     $activePage = 'contato';
     $cssPage = 'contato.css';
-    $basePath = '/portfolio-audiovisual';
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -29,13 +28,13 @@
             <p class="contacts-title">INSTAS</p>
             <ul class="contacts-lists">
                 <li class="contact-itens">
-                    <a href="[https://instagram.com/lucaxdourado](https://instagram.com/lucaxdourado)">PESSOAL</a>
+                    <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">PESSOAL</a>
                 </li>
                 <li class="contact-itens">
-                    <a href="">FOTO & VIDEO</a>
+                    <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">FOTO & VIDEO</a>
                 </li>
                 <li class="contact-itens">
-                    <a href="">DESIGN</a>
+                    <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">DESIGN</a>
                 </li>
             </ul>
         </div>
