@@ -48,7 +48,7 @@
                 <a href="<?= $basePath; ?>/pages/foto.php">FOTO</a>
             </li>
             <li class="menu-itens <?= ($activePage ?? '') === 'video' ? 'active-page' : '' ?>">
-                <a href="<?= $basePath; ?>/pages/video.php">VIDEO</a>
+                <a href="<?= $basePath; ?>/pages/video.php">VÍDEO</a>
             </li>
             <li class="menu-itens <?= ($activePage ?? '') === 'design' ? 'active-page' : '' ?>">
                 <a href="<?= $basePath; ?>/pages/design.php">DESIGN</a>

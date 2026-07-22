@@ -44,7 +44,7 @@ main {
 
 #overview div {
     align-self: flex-start;
-    color: #fffacd;
+    color: white;
 }
 
 #description-title, #overview-tools div {

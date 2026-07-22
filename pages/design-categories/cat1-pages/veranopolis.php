@@ -31,7 +31,7 @@
     </section>
     <div id="overview">
         <div id="overview-description">
-            <div id="description-title">Veranópolis ECRC - 2023</div>
+            <div id="description-title">Veranópolis ECRC / 2023</div>
             <div id="description-text">
                 O Veranópolis Esporte Clube Recreativo e Cultural, conhecido apenas por Veranópolis e cujo acrônimo é VEC, é um clube brasileiro de futebol, sediado na cidade de Veranópolis, no estado do Rio Grande do Sul. <br>
                 Esse foi meu primeiro projeto com apresentação mais completo, disponível no <a href="https://www.behance.net/gallery/190014681/Veranopolis-ECRC-Redesign-de-Escudo" target="_blank" rel="noopener noreferrer" id="be-account">behance</a>.
