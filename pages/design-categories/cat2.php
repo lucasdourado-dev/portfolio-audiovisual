@@ -1,6 +1,5 @@
 <?php
     $cssPage = 'design-categories.css';
-    $basePath = '/portfolio-audiovisual';
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';
 ?>

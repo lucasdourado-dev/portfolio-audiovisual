@@ -1,6 +1,5 @@
 <?php
     $cssPage = 'redesign.css';
-    $basePath = '/portfolio-audiovisual';
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';
 ?>
@@ -53,7 +52,7 @@
             <div id="description-text">
                 Desde pequeno eu sempre dei uma atenção especial a escudos de futebol, algo que me entretém muito até hoje. <br>
                 Esses são alguns redesigns de escudos de futebol que eu fiz nos últimos anos, com o intuito de repaginar o visual de algumas equipes. <br>
-                Você pode ver os detalhes e processos de cada um deles na minha conta de design do <a href="#" id="insta-account">instagram</a>.
+                Você pode ver os detalhes e processos de cada um deles na minha conta de design do <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer" id="insta-account">instagram</a>.
             </div>
         </div>
         <div id="overview-tools">
