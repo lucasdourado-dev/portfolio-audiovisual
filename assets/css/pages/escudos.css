@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#category-title {
+    text-align: center;
+    margin: 96px 0 32px 0;
+    color: var(--color-golden);
+    font-size: clamp(3rem, 4vw + 1rem, 5rem);
+    line-height: 0.85;
+    animation: slideDown 1s cubic-bezier(0.25, 1, 0.4, 1) forwards;
+}
+
+@keyframes slideDown {
+    from {transform: translateY(-200px);}
+    to {transform: translateY(0);}
+}
+
+.expo-frames {
+    width: 100%;
+    margin-bottom: 0 rem;
+}
+
+#insta-account {
+    color: var(--color-golden);
+}
+
+#overview div {
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+@keyframes blink {
+    0% {color: white;}
+    25% {color: var(--color-golden);}
+    75%, 100% {color: white;}
+}
+
+@media (min-width: 768px) {
+    #expo-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+        max-width: 1000px;
+    }
+
+    .expo-frames {
+        margin-bottom: 0;
+    }
+}

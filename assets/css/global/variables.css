@@ -1,5 +1,6 @@
 :root {
-    --font-main: 'Coolvetica Rg';
+    --font-main: 'Inter Bold';
+    --font-secondary: 'Inter Regular';
 
     --color-golden: #a89474ff;
     --color-dark: #0d0d0dff;

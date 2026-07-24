@@ -24,6 +24,7 @@ body {
 }
 
 #swipe-up {
+    font-family: var(--font-secondary);
     cursor: default;
     font-size: 2rem;
     position: fixed;
@@ -51,6 +52,9 @@ body {
 }
 
 #category-container {
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
     background-color: black;
     position: relative;
     z-index: 2000;
@@ -80,9 +84,25 @@ body {
     margin-bottom: 1rem;
 }
 
-#category-link-2 {
+.categories:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.categories:nth-child(even) {
     align-self: flex-end;
 }
+
+.categories:nth-child(odd) .categories-links,
+.categories:nth-child(odd) .categories-title,
+.categories:nth-child(odd) .categories-preview {
+    align-self: flex-start;
+}
+
+.categories:nth-child(even) .categories-links,
+.categories:nth-child(even) .categories-title,
+.categories:nth-child(even) .categories-preview {
+    align-self: flex-end;
+}   
 
 .categories-links .categories-title {
     margin-bottom: 1rem;
@@ -91,19 +111,33 @@ body {
     color: white;
 }
 
-.categories-subtitle {
-    margin: 0.2rem 0 0.8rem 0;
-    font-family: var(--font-main);
-    font-size: 1rem;
-    color: rgb(83, 83, 83);
-}
-
 .categories-preview {
     position: relative;
     width: 100%;
     max-width: 460px;
     aspect-ratio: 3/2;
     display: flex;
+    justify-content: center;
+}
+
+.categories-preview img {
+
+    border-radius: 0.5rem;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Não distorce a imagem do portfólio */
+    opacity: 0;
+    
+    /* Animação de fade de 12 segundos totais */
+    animation: fadeCategories 20s infinite ease-in-out;
+}
+
+.categories-preview video {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 /* Coloque essa classe em TODOS os containers que você quer que apareçam aos poucos */
