@@ -41,10 +41,15 @@
     href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"
     />
     
-    <link rel="icon" type="image/png" href="<?= getAssetUrl('/assets/media/img-design/favicon.png', $basePath, $baseDir); ?>">
+    <?php if (isset($cssExpo)): ?>
+        <link rel="stylesheet" href="<?= getAssetUrl('/assets/css/pages/' . $cssExpo, $basePath, $baseDir); ?>">
+    <?php endif; ?>
+    
     <?php if (isset($cssPage)): ?>
         <link rel="stylesheet" href="<?= getAssetUrl('/assets/css/pages/' . $cssPage, $basePath, $baseDir); ?>">
     <?php endif; ?>
+
+    <link rel="icon" type="image/png" href="<?= getAssetUrl('/assets/media/img-design/favicon.png', $basePath, $baseDir); ?>">
 
 </head>
 <body>

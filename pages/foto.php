@@ -8,16 +8,15 @@
 <main>
     <section id="intro-container">
         <div id="page-title">FOTO</div>
-        <div id="swipe-up">^</div>
+        <div id="swipe-up">—</div>
     </section>
 
     <section id="category-container">
 
         <div class="categories" id="category1">
-            <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/foto-categories/cat1.php">
+            <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/foto-categories/externo.php">
 
                 <div class="categories-title" id="category1-title">EXTERNO</div>
-                <!-- <div class="categories-subtitle" id="category1-subtitle">Ambientes externos e natureza</div> -->
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_4080.jpg" alt="">
@@ -31,9 +30,8 @@
         </div>
 
         <div class="categories" id="category2">
-            <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath; ?>/pages/foto-categories/cat2.php">
+            <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath; ?>/pages/foto-categories/casais.php">
                 <div class="categories-title" id="category1-title">CASAIS</div>
-                <!-- <div class="categories-subtitle" id="category2-subtitle">Casamentos civis e ensaios fotográficos</div> -->
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_1280.jpg" alt="">
@@ -45,7 +43,20 @@
             </a>
         </div>
 
-        
+        <div class="categories" id="category3">
+            <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath; ?>/pages/foto-categories/edit.php">
+                <div class="categories-title" id="category3-title">EDIT</div>
+
+                <div class="categories-preview">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_4080.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0501.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8799.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8949.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0670.jpg" alt="">
+                </div>
+            </a>
+        </div>
+
     </section>
 </main>
 

@@ -1,6 +1,10 @@
-.categories {
-    padding: 16px;
-    align-items: center;
+#video-1 {
+    padding: 1rem;
+}
+
+#video-1 div {
+    /* border: 1px solid red; */
+    margin: auto;
 }
 
 .categories-preview {

@@ -10,13 +10,13 @@
         <div id="page-title">
             <div>DESIGN</div>
         </div>
-        <div id="swipe-up">^</div>
+        <div id="swipe-up">—</div>
     </section>
 
     <section id="category-container">
 
         <div class="categories" id="category1">
-            <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/design-categories/cat1.php">
+            <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/design-categories/all-id-visual.php">
 
                 <div class="categories-title" id="category1-title">IDENTIDADE VISUAL</div>
 
@@ -31,7 +31,7 @@
         </div>
 
         <div class="categories" id="category2">
-            <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath ?>/pages/design-categories/cat2.php">
+            <a class="categories-links hidden-scroll" id="category-link-2" href="<?= $basePath ?>/pages/design-categories/all-camisas.php">
                 <div class="categories-title" id="category1-title">CAMISAS</div>
 
                 <div class="categories-preview">
@@ -42,8 +42,8 @@
         </div>
 
         <div class="categories" id="category3">
-            <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath ?>/pages/design-categories/redesign.php">
-                <div class="categories-title" id="category1-title">REDESIGNS DE FUTEBOL</div>
+            <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath ?>/pages/design-expo/escudos.php">
+                <div class="categories-title" id="category1-title">ESCUDOS DE FUTEBOL</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bordeaux.jpg" alt="">
