@@ -5,6 +5,7 @@
     require_once __DIR__ . '/../includes/menu.php';
 ?>
 
+<div class="transition-entering"></div>
 <main>
     <section id="intro-container">
         <div id="page-title">
@@ -20,12 +21,13 @@
         <div class="categories" id="category1">
             <a class="categories-links hidden-scroll" id="category-link-1" href="<?= $basePath; ?>/pages/design-categories/all-id-visual.php">
 
-                <div class="categories-title" id="category1-title">IDENTIDADE VISUAL</div>
+                <div class="categories-title" id="category1-title">ID VISUAL</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/up/iphone-mockup.png" alt="">
                     <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/hermanos/06.png" alt="">
                     <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/uni/1.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/veranopolis/1.png" alt="">
                     
                 </div>
 

@@ -1,5 +1,5 @@
 .transition-entering {
-    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) 1.33s forwards;
+    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) 2.25s forwards;
 }
 
 .top-bar {

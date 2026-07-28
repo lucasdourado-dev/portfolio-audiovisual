@@ -36,14 +36,15 @@
 }
 
 #category1 img:nth-child(1) { animation-delay: 0s; }
-#category1 img:nth-child(2) { animation-delay: 3.33s; }
-#category1 img:nth-child(3) { animation-delay: 6.66s; }
+#category1 img:nth-child(2) { animation-delay: 2.5s; }
+#category1 img:nth-child(3) { animation-delay: 5s; }
+#category1 img:nth-child(4) { animation-delay: 7.5s; }
 
 @keyframes fadeCat1 {
     0% { opacity: 0; }
-    3% { opacity: 1; }    /* Entra em ~0.3s */
-    30% { opacity: 1; }   /* Fica visível até 3s */
-    33.3% { opacity: 0; } /* Esconde em 3.33s */
+    3% { opacity: 1; }    /* Fade in */
+    22% { opacity: 1; }   /* Permanece visível */
+    25% { opacity: 0; }   /* Fade out */
     100% { opacity: 0; }
 }
 

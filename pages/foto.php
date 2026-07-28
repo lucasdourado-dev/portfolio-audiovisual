@@ -5,6 +5,7 @@
     require_once __DIR__ . '/../includes/menu.php';
 ?>
 
+<div class="transition-entering"></div>
 <main>
     <section id="intro-container">
         <div id="page-title">FOTO</div>
@@ -64,11 +65,11 @@
                 <div class="categories-title" id="category3-title">EDIT</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_4080.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0501.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8799.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8949.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0670.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0357.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8831.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_9639.jpeg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_6306.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164.jpg" alt="">
                 </div>
             </a>
         </div>
