@@ -19,6 +19,7 @@ footer {
 
 .footer-texts {
     color: var(--color-golden);
+    font-family: var(--font-secondary);
 }
 
 #contact-link {

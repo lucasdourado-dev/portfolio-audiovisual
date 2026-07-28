@@ -16,10 +16,15 @@
     <div id="contacts">
 
         <div class="contacts-categories" id="contact-1">
-            <p class="contacts-title">EMAIL</p>
             <ul class="contacts-lists">
                 <li class="contact-itens">
-                    <a href="">LUCAS9DOURADO@GMAIL.COM</a>
+                    <a href="">MAIL</a>
+                </li>
+            </ul>
+
+            <ul class="contacts-lists">
+                <li class="contact-itens">
+                    <a href="">BEHANCE</a>
                 </li>
             </ul>
         </div>

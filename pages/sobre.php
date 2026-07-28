@@ -10,7 +10,9 @@
         <div id="page-title">
             <div>SOBRE MIM</div>
         </div>
-        <div id="swipe-up">—</div>
+        <div id="swipe-up">
+            <span></span>
+        </div>
     </section>
 
     <section id="about-container">

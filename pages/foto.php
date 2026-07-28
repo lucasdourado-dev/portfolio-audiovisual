@@ -8,7 +8,9 @@
 <main>
     <section id="intro-container">
         <div id="page-title">FOTO</div>
-        <div id="swipe-up">—</div>
+        <div id="swipe-up">
+            <span></span>
+        </div>
     </section>
 
     <section id="category-container">
@@ -44,7 +46,21 @@
         </div>
 
         <div class="categories" id="category3">
-            <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath; ?>/pages/foto-categories/edit.php">
+            <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath; ?>/pages/foto-categories/igreja.php">
+                <div class="categories-title" id="category3-title">IGREJA</div>
+
+                <div class="categories-preview">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5542.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_4300.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_6275.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0268.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5597.jpg" alt="">
+                </div>
+            </a>
+        </div>
+
+        <div class="categories" id="category4">
+            <a class="categories-links hidden-scroll" id="category-link-4" href="<?= $basePath; ?>/pages/foto-categories/edit.php">
                 <div class="categories-title" id="category3-title">EDIT</div>
 
                 <div class="categories-preview">

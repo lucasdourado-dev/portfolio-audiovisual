@@ -71,6 +71,34 @@
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_9639.jpeg" alt="" data-fancybox="gallery">
         </div>
+
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164-0.jpeg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164.jpg" alt="" data-fancybox="gallery">
+        </div>
+
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_4300-0.jpeg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_4300.jpg" alt="" data-fancybox="gallery">
+        </div>
+
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_6306-0.jpeg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_6306.jpg" alt="" data-fancybox="gallery">
+        </div>
+
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0268-0.jpeg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0268.jpg" alt="" data-fancybox="gallery">
+        </div>
         
 
     </section>

@@ -39,7 +39,13 @@ header {
     padding: 0 1rem;
     border-radius: 1rem;
 
-    background-color: var(--color-golden);
+    /* background-color: var(--color-golden); */
+    /* background-color: black; */
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px var(--color-golden) solid;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.03) inset;
 
     display: flex;
     flex-direction: row;
@@ -60,8 +66,8 @@ header {
 .logo {
     font-family: var(--font-main);
     font-size: 1rem;
-    color: black;
-    /* color: var(--color-golden); */
+    /* color: black; */
+    color: var(--color-golden);
     cursor: pointer;
 }
 
@@ -75,8 +81,8 @@ header {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: black;
-    /* background: var(--color-golden); */
+    /* background-color: black; */
+    background: var(--color-golden);
     left: 0;
     transition: 
         top 0.25s ease 0.25s,
@@ -193,7 +199,14 @@ header {
         padding: 0 1rem;
         border-radius: 1rem;
 
-        background-color: var(--color-golden);
+        /* background-color: var(--color-golden); */
+        /* background-color: black; */
+
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
+
+        border: 1px var(--color-golden) solid;
     
         z-index: 2500;
     }
@@ -210,7 +223,7 @@ header {
     }
 
     .menu-itens a {
-        color: black;
+        color: white;
         /* color: white; */
         font-size: 1rem;
         font-weight: normal;
@@ -220,14 +233,14 @@ header {
 
     .active-page a {
         font-weight: normal;
-        opacity: 0.5;
-        /* color: var(--color-golden); */
+        /* opacity: 0.5; */
+        color: var(--color-golden);
     }
 
     .menu-itens a:hover {
         color: black;
-        opacity: 0.5;
-        /* color: var(--color-golden); */
+        /* opacity: 0.5; */
+        color: var(--color-golden);
     }
 }
 
