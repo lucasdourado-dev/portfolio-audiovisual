@@ -8,11 +8,11 @@
 <div class="transition-entering"></div>
 <main>
     <section id="intro-container">
-        <div id="page-title">
+        <div id="page-title" class="intro-blur">
             <div>SOBRE MIM</div>
         </div>
         <div id="swipe-up">
-            <span></span>
+            <span class="intro-blur"></span>
         </div>
     </section>
 
