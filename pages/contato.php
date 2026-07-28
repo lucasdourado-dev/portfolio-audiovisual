@@ -5,6 +5,7 @@
     require_once __DIR__ . '/../includes/menu.php';
 ?>
 
+<div class="transition-entering"></div>
 <main>
     <section id="intro-container">
         <div id="page-title">
@@ -15,34 +16,29 @@
 
     <div id="contacts">
 
-        <div class="contacts-categories" id="contact-1">
-            <ul class="contacts-lists">
-                <li class="contact-itens">
-                    <a href="">MAIL</a>
-                </li>
-            </ul>
+        <ul class="contacts-lists"  id="contact-1">
+            <li class="contact-itens">
+                <a href="">MAIL</a>
+            </li>
+            <li class="contact-itens">
+                <a href="">LINKEDIN</a>
+            </li>
+            <li class="contact-itens">
+                <a href="">BEHANCE</a>
+            </li>
+        </ul>
 
-            <ul class="contacts-lists">
-                <li class="contact-itens">
-                    <a href="">BEHANCE</a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="contacts-categories" id="contact-2">
-            <p class="contacts-title">INSTAS</p>
-            <ul class="contacts-lists">
-                <li class="contact-itens">
-                    <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">PESSOAL</a>
-                </li>
-                <li class="contact-itens">
-                    <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">FOTO E VIDEO</a>
-                </li>
-                <li class="contact-itens">
-                    <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">DESIGN</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="contacts-lists"  id="contact-2">
+            <li class="contact-itens">
+                <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">PESSOAL</a>
+            </li>
+            <li class="contact-itens">
+                <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">AUDIOVISUAL</a>
+            </li>
+            <li class="contact-itens">
+                <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">DESIGN</a>
+            </li>
+        </ul>
     </div>
 
 </main>

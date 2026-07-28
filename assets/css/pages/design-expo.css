@@ -47,6 +47,10 @@ main {
     font-size: 1.5rem;
 }
 
+#overview-tools li {
+    font-family: var(--font-secondary);
+}
+
 #description-text {
     font-family: var(--font-secondary);
 }

@@ -35,15 +35,19 @@ body {
                jump 3.5s infinite ease-in-out;          
 } */
 
-#swipe-up span {
+#swipe-up {
+    width: 100%;
     position: fixed;
     bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#swipe-up span {
     width: 20px;
     height: 2px;
     opacity: 0;
-    /* background-color: black; */
     background: var(--color-golden);
-    /* left: 0; */
     margin: auto;
     animation: fadeIn 1s ease-in-out 2.25s forwards,
                jump 3.5s infinite ease-in-out;          

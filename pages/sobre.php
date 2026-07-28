@@ -5,6 +5,7 @@
     require_once __DIR__ . '/../includes/menu.php';
 ?>
 
+<div class="transition-entering"></div>
 <main>
     <section id="intro-container">
         <div id="page-title">
