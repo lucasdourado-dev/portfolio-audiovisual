@@ -10,7 +10,9 @@
         <div id="page-title">
             <div>DESIGN</div>
         </div>
-        <div id="swipe-up">—</div>
+        <div id="swipe-up">
+            <span></span>
+        </div>
     </section>
 
     <section id="category-container">
@@ -36,14 +38,14 @@
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/capa.png" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/03.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.png" alt="">
                 </div>
             </a>
         </div>
 
         <div class="categories" id="category3">
             <a class="categories-links hidden-scroll" id="category-link-3" href="<?= $basePath ?>/pages/design-expo/escudos.php">
-                <div class="categories-title" id="category1-title">ESCUDOS DE FUTEBOL</div>
+                <div class="categories-title" id="category1-title">ESCUDOS</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bordeaux.jpg" alt="">

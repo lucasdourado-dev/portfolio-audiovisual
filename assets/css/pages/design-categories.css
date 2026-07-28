@@ -28,3 +28,10 @@ main {
     to {transform: translateY(0);}
 }
 
+.categories-preview img {
+    opacity: 1 !important;
+    animation: none !important;
+    position: relative !important;
+    inset: auto !important;
+    display: block !important;
+}

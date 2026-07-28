@@ -2,6 +2,7 @@
     position: fixed;
     inset: 0;
     background: black;
+    /* background-color: var(--color-golden); */
     transform: scaleY(0);
     transform-origin: bottom;
     transition: transform .5s cubic-bezier(.86,0,.83,.67);
@@ -18,6 +19,7 @@
     position: fixed;
     inset: 0;
     background: black;
+    /* background-color: var(--color-golden); */
     transform: scaleY(1); 
     transform-origin: top; 
     animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) .5s forwards;

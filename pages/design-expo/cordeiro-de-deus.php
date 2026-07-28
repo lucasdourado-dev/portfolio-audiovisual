@@ -9,16 +9,16 @@
 <main>
     <section id="expo-container">
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/01.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/01.png" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/02.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/02.png" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/03.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.png" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/04.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/04.png" alt="">
         </div>
     </section>
     <div id="overview">

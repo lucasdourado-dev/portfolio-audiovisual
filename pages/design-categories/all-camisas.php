@@ -15,7 +15,7 @@
                 <div class="categories-title" id="category1-title">CORDEIRO DE DEUS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/mobile/03.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.png" alt="">
                 </div>
             </a>
         </div>
