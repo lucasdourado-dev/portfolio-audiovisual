@@ -55,3 +55,34 @@ document.addEventListener('click', (e) => {
         window.location.href = link.href;
     }, 500);
 });
+
+
+// const intro = document.querySelector(".intro-blur");
+
+// const maxScroll = window.innerHeight; // distância em que o efeito termina
+
+// window.addEventListener("scroll", () => {
+//     const progress = Math.min(window.scrollY / maxScroll, 1);
+
+//     // Ajuste os valores como preferir
+//     const blur = progress * 20;      // 0 → 20px
+//     const opacity = 1 - progress;    // 1 → 0
+
+//     intro.style.filter = `blur(${blur}px)`;
+//     intro.style.opacity = opacity;
+// });
+
+const intro = document.querySelector(".intro-blur");
+
+const start = window.innerHeight * 0.2; // começa em 20% da tela
+const end = window.innerHeight * 0.5;   // termina em 80%
+
+window.addEventListener("scroll", () => {
+    const scroll = window.scrollY;
+
+    let progress = (scroll - start) / (end - start);
+    progress = Math.max(0, Math.min(progress, 1));
+
+    intro.style.filter = `blur(${progress * 20}px)`;
+    intro.style.opacity = 1 - progress;
+});

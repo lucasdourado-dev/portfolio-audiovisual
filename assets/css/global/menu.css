@@ -63,7 +63,7 @@ header {
     to {opacity: 1;}
 }
 
-.logo {
+.menu-word {
     font-family: var(--font-main);
     font-size: 1rem;
     /* color: black; */

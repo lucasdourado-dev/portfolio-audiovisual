@@ -3,12 +3,20 @@ body {
 }
 
 #intro-container {
+    /* position: fixed;
+    height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
+}
+
+.intro-blur {
+    filter: blur(0);
+    opacity: 1;
+    will-change: filter, opacity;
 }
 
 #page-title {
@@ -23,22 +31,10 @@ body {
                goldenTransition 1s ease-out 2s forwards;
 }
 
-/* #swipe-up {
-    font-family: var(--font-secondary);
-    cursor: default;
-    font-size: 2rem;
-    position: fixed;
-    opacity: 0;
-    bottom: 2rem;
-    color: var(--color-golden);
-    animation: fadeIn 1s ease-in-out 2.25s forwards,
-               jump 3.5s infinite ease-in-out;          
-} */
-
 #swipe-up {
     width: 100%;
-    position: fixed;
-    bottom: 2rem;
+    margin-top: auto;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
 }
@@ -73,7 +69,7 @@ body {
     width: 100%;
     margin: auto;
     max-width: 1000px;
-    background-color: black;
+    /* background-color: black; */
     position: relative;
     z-index: 2000;
 

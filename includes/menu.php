@@ -27,11 +27,14 @@
             $activePage = 'home';
         }
     }
+
+    $menuWord = ($activePage === 'home') ? 'INICIAR' : 'MENU';
+
 ?>
 <header>
     <div id="overlay"></div>
     <div class="top-bar">
-        <p class="logo">MENU</p>
+        <p class="menu-word"><?= $menuWord; ?></p>
         <button class="menu-toggle">
             <span></span>
             <span></span>
