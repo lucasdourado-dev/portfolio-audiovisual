@@ -1,5 +1,7 @@
 <?php
     $cssPage = 'foto-expo.css';
+    $titlePage = ' — Foto';
+
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';
 ?>
@@ -7,6 +9,7 @@
 <div class="transition-entering"></div>
 <main>
     <div id="category-title">EXTERNO</div>
+    <div id="category-advice">CLIQUE FORA DA IMAGEM PARA SAIR</div>
     <section id="gallery-section">
 
         <div class="gallery-item">
@@ -76,8 +79,6 @@
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0536.jpg" alt="" data-fancybox="gallery">
         </div>
-        
-        
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0606.jpg" alt="" data-fancybox="gallery">
         </div>
@@ -185,9 +186,6 @@
         </div>
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8270.jpg" alt="" data-fancybox="gallery">
-        </div>
-        <div class="gallery-item">
-            <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_5023.jpg" alt="" data-fancybox="gallery">
         </div>
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8917.jpg" alt="" data-fancybox="gallery">

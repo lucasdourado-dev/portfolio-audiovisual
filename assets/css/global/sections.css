@@ -34,7 +34,7 @@ body {
 #swipe-up {
     width: 100%;
     margin-top: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
 }
@@ -68,8 +68,8 @@ body {
 #category-container {
     width: 100%;
     margin: auto;
+    margin-top: 32px;
     max-width: 1000px;
-    /* background-color: black; */
     position: relative;
     z-index: 2000;
 
@@ -87,7 +87,7 @@ body {
 }
 
 .categories-links {
-    padding: 1rem;
+    padding: 0 1rem;
     width: 100vw;
     max-width: 460px;
     position: relative;
@@ -95,7 +95,7 @@ body {
     flex-direction: column;
     align-items: center;
 
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .categories:nth-child(odd) {

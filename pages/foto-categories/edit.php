@@ -1,5 +1,7 @@
 <?php
     $cssPage = 'edit.css';
+    $titlePage = ' — Foto';
+
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';
 ?>
@@ -7,6 +9,8 @@
 <div class="transition-entering"></div>
 <main>
     <div id="category-title">EDIT</div>
+    <div id="category-advice">CLIQUE FORA DA IMAGEM PARA SAIR</div>
+
     <section id="gallery-section">
 
         <div class="gallery-item">

@@ -1,6 +1,8 @@
 <?php
     $activePage = 'contato';
     $cssPage = 'contato.css';
+    $titlePage = ' — Contato';
+
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -18,25 +20,25 @@
 
         <ul class="contacts-lists"  id="contact-1">
             <li class="contact-itens">
-                <a href="">MAIL</a>
+                <a href="mailto:seuemail@exemplo.com">MAIL</a>
             </li>
             <li class="contact-itens">
-                <a href="">LINKEDIN</a>
+                <a href="https://github.com/lucasdourado-dev/portfolio-audiovisual">GITHUB</a>
             </li>
             <li class="contact-itens">
-                <a href="">BEHANCE</a>
+                <a href="https://www.behance.net/madebydourado">BEHANCE</a>
             </li>
         </ul>
 
         <ul class="contacts-lists"  id="contact-2">
             <li class="contact-itens">
-                <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">PESSOAL</a>
+                <a href="https://www.instagram.com/lucaxdourado/" target="_blank" rel="noopener noreferrer">@PESSOAL</a>
             </li>
             <li class="contact-itens">
-                <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">AUDIOVISUAL</a>
+                <a href="https://www.instagram.com/shotbydourado/" target="_blank" rel="noopener noreferrer">@CAPTURAS</a>
             </li>
             <li class="contact-itens">
-                <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">DESIGN</a>
+                <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer">@DESIGN</a>
             </li>
         </ul>
     </div>

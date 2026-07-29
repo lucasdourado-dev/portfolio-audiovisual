@@ -1,5 +1,7 @@
 <?php
     $cssPage = 'foto-expo.css';
+    $titlePage = ' — Foto';
+
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';
 ?>
@@ -7,16 +9,12 @@
 <div class="transition-entering"></div>
 <main>
     <div id="category-title">IGREJA</div>
+    <div id="category-advice">CLIQUE FORA DA IMAGEM PARA SAIR</div>
+
     <section id="gallery-section">
 
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/4c9ae4bf-9323-4e27-aef1-92c123c9a4eb.jpg" alt="" data-fancybox="gallery">
-        </div>
-        <div class="gallery-item">
-            <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/55050965728_263d29178e_o.jpg" alt="" data-fancybox="gallery">
-        </div>
-        <div class="gallery-item">
-            <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/55058395469_72fd2450b2_o.jpg" alt="" data-fancybox="gallery">
         </div>
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/DSCF5225.jpg" alt="" data-fancybox="gallery">
@@ -29,6 +27,12 @@
         </div>
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0164.jpg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/55050965728_263d29178e_o.jpg" alt="" data-fancybox="gallery">
+        </div>
+        <div class="gallery-item">
+            <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/55058395469_72fd2450b2_o.jpg" alt="" data-fancybox="gallery">
         </div>
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0207.jpg" alt="" data-fancybox="gallery">
@@ -117,9 +121,9 @@
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8555.jpg" alt="" data-fancybox="gallery">
         </div>
-        <div class="gallery-item">
+        <!-- <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8556.jpg" alt="" data-fancybox="gallery">
-        </div>
+        </div> -->
         <div class="gallery-item">
             <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8714.jpg" alt="" data-fancybox="gallery">
         </div>
