@@ -13,22 +13,22 @@
     <section id="expo-container">
 
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/1.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/1.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/2.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/2.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/3.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/3.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/4.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/4.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/5.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/5.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/6.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/uni/6.webp" alt="">
         </div>
         
     </section>

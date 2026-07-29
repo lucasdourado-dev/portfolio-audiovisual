@@ -13,28 +13,28 @@
     <section id="expo-container">
 
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/01.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/01.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/02.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/02.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/03.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/03.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/04.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/04.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/05.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/05.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/06.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/06.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/07.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/07.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/08.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/08.webp" alt="">
         </div>
         
     </section>

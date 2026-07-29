@@ -16,42 +16,39 @@
             <video src="<?= $basePath ?>/assets/media/img-design/id-visual/up/up-motion.mp4" autoplay loop muted playsinline></video>
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/black-white.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/black-white.webp" alt="">
         </div>
         <div class="expo-frames" id="video-2">
             <video src="<?= $basePath ?>/assets/media/img-design/id-visual/up/up-grid.mp4" autoplay loop muted playsinline></video>
         </div>
-        <!-- <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/wider-screen.png" alt="">
-        </div> -->
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/verse.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/verse.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/iphone-mockup.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/iphone-mockup.webp" alt="">
         </div>
         
         <div class="expo-frames">
             <div class="expo-frames-posts-block">
                 <div class="expo-frames-posts">
-                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-1.png" alt="">
+                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-1.webp" alt="">
                 </div>
                 <div class="expo-frames-posts">
-                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-2.png" alt="">
+                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-2.webp" alt="">
                 </div>
             </div>
             <div class="expo-frames-posts-block">
                 <div class="expo-frames-posts">
-                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-3.png" alt="">
+                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-3.webp" alt="">
                 </div>
                 <div class="expo-frames-posts">
-                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-4.png" alt="">
+                    <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/post-4.webp" alt="">
                 </div>
             </div>
         </div>
 
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/subway-mockup.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/up/subway-mockup.webp" alt="">
         </div>
 
     </section>

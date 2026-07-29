@@ -22,11 +22,11 @@
                 <div class="categories-title" id="category1-title">EXTERNO</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_4080.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0501.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8799.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_8949.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/IMG_0670.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/thumbs/IMG_4080_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/thumbs/IMG_0501_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/thumbs/IMG_8799_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/thumbs/IMG_8949_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/externo/thumbs/IMG_0670_thumb.webp" alt="">
                 </div>
 
             </a>
@@ -37,11 +37,11 @@
                 <div class="categories-title" id="category1-title">CASAIS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_1280.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_7212.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9713.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9543.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_0325.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_1280_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_7212_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9713_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9543_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_0325_thumb.webp" alt="">
                 </div>
             </a>
         </div>
@@ -51,11 +51,11 @@
                 <div class="categories-title" id="category3-title">IGREJA</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5542.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_4300.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_6275.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0268.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5597.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_5542_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_4300_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_6275_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0268_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_5597_thumb.webp" alt="">
                 </div>
             </a>
         </div>
@@ -65,11 +65,11 @@
                 <div class="categories-title" id="category3-title">EDIT [EXTRA]</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0357.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8831.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_9639.jpeg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_6306.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0357_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_8831_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_9639_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_6306_thumb.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0164_thumb.webp" alt="">
                 </div>
             </a>
         </div>

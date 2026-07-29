@@ -35,7 +35,7 @@
             <div class="about-categories-title">DESIGN</div>
             <div class="about-categories-text">
                 Desde pequeno, o desenho sempre fez parte da minha vida. Durante a pandemia, aos 14 anos, comecei a transformar meus escudos e camisas de futebol em projetos digitais, ainda utilizando o Canva. Foi nesse período que criei minha página de design no Instagram, onde tive a oportunidade de compartilhar trabalhos e trocar experiências com designers de diferentes partes do mundo. <br> <br>
-                Com o tempo, meu interesse por identidade visual foi além do universo esportivo e passou a abranger o design como um todo. Também comecei a colaborar com a minha igreja local, desenvolvendo logotipos e peças gráficas para cultos e eventos. Buscar referências, estudar novas abordagens e observar diferentes estilos tornou-se um hábito que mantenho até hoje. <br> <br>
+                Com o tempo, meu interesse por identidade visual foi além do universo esportivo e passou a abranger o design como um todo. Também comecei a colaborar com a minha igreja local, desenvolvendo logotipos e peças gráficas para cultos e eventos. Buscar referências, estudar novas abordagens e observar diferentes estilos tornou-se um hábito que mantenho até hoje, inclusive em relação a web design. <br> <br>
                 Minha trajetória começou no Canva, evoluiu para o Inkscape — ferramenta na qual desenvolvi grande parte dos meus projetos — e, mais recentemente, passei a trabalhar com o pacote Adobe, ampliando minhas possibilidades criativas e aperfeiçoando meu processo de criação. <br>
             </div>
 

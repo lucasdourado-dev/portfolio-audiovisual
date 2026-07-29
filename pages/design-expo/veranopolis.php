@@ -11,25 +11,25 @@
 <main>
     <section id="expo-container">
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/1.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/1.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/2.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/2.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/3.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/3.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/4.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/4.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/5.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/5.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/6.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/6.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/7.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/veranopolis/7.webp" alt="">
         </div>
         
     </section>

@@ -11,23 +11,23 @@
 <main>
     <section id="expo-container">
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/01.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/01.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/02.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/02.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/04.png" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/camisa/cordeiro-de-deus/04.webp" alt="">
         </div>
     </section>
     <div id="overview">
         <div id="overview-description">
             <div id="description-title">Cordeiro de Deus</div>
             <div id="description-text">
-                Carregando a temática do culto de Gerações da Igreja Batista Bom Retiro, Cordeiro de Deus, fui responsável por idealizar e desenhar a estampa da camisa desse evento.
+                Carregando a temática do culto de Gerações da Igreja Batista Bom Retiro, Cordeiro de Deus, fui responsável por idealizar e desenhar a estampa da camisa desse evento, inspirada em João 1:29.
             </div>
         </div>
         <div id="overview-tools">
