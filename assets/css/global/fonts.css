@@ -1,26 +1,13 @@
 @font-face {
-    font-family: Google Sans;
-    src: url(../../fonts/GoogleSans-Regular.ttf);
+    font-family: 'Inter Regular';
+    src: url(../../fonts/Inter18pt-Regular.woff2) format("woff2");
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Editorial;
-    src: url(../../fonts/PPEditorialNew-Regular-BF644b214ff145f.otf);
-}
-
-@font-face {
-    font-family: Coolvetica Rg;
-    src: url(../../fonts/coolvetica\ rg.otf);
-}
-
-@font-face {
-    font-family: Inter Regular;
-    src: url(../../fonts/Inter_18pt-Regular.ttf);
-}
-
-@font-face {
-    font-family: Inter Bold;
-    src: url(../../fonts/Inter_18pt-Bold.ttf);
+    font-family: 'Inter Bold';
+    src: url(../../fonts/Inter18pt-Bold.woff2) format("woff2");
+    font-display: swap;
 }
 
 
