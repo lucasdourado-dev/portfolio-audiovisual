@@ -16,34 +16,34 @@
     <section id="expo-container">
 
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/veranopolis.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/veranopolis.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/sousa.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/sousa.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/dourados.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/dourados.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/bragantino.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/bragantino.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/goianesia.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/goianesia.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/saobento.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/saobento.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/fiorentina.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/fiorentina.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/bordeaux.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/bordeaux.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/torino.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/torino.webp" alt="">
         </div>
         <div class="expo-frames">
-            <img src="<?= $basePath ?>/assets/media/img-design/redesign/vvv.jpg" alt="">
+            <img src="<?= $basePath ?>/assets/media/img-design/redesign/vvv.webp" alt="">
         </div>
         
     </section>

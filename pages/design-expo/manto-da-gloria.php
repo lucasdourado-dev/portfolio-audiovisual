@@ -14,38 +14,38 @@
 
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/1.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/1.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/1.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/1.webp" alt="">
             </picture>
         </div>
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/2.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/2.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/2.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/2.webp" alt="">
             </picture>
         </div>
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/3.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/3.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/3.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/3.webp" alt="">
             </picture>
         </div>
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/4.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/4.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/4.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/4.webp" alt="">
             </picture>
         </div>
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/5.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/5.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/5.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/5.webp" alt="">
             </picture>
         </div>
         <div class="expo-frames">
             <picture>
-                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/6.png">
-                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/6.png" alt="">
+                <source media="(min-width: 768px)" srcset="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/desktop/6.webp">
+                <img src="<?= $basePath ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/6.webp" alt="">
             </picture>
         </div>
         

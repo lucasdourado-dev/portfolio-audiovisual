@@ -26,10 +26,10 @@
                 <div class="categories-title" id="category1-title">ID VISUAL</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/up/iphone-mockup.png" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/hermanos/06.png" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/uni/1.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/veranopolis/1.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/up/iphone-mockup.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/hermanos/06.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/uni/1.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/veranopolis/1.webp" alt="">
                     
                 </div>
 
@@ -41,8 +41,8 @@
                 <div class="categories-title" id="category1-title">CAMISAS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/capa.png" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/manto-da-gloria/mobile/capa.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/camisa/cordeiro-de-deus/03.webp" alt="">
                 </div>
             </a>
         </div>
@@ -52,11 +52,11 @@
                 <div class="categories-title" id="category1-title">ESCUDOS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bordeaux.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/fiorentina.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bragantino.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/sousa.jpg" alt="">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/torino.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bordeaux.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/fiorentina.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/bragantino.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/sousa.webp" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/redesign/torino.webp" alt="">
                 </div>
             </a>
         </div>

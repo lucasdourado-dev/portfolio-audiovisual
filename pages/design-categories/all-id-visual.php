@@ -39,7 +39,7 @@
                 <div class="categories-title" id="category1-title">CROSS UNI</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/uni/1.jpg" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/uni/1.webp" alt="">
                 </div>
             </a>
         </div>
@@ -49,7 +49,7 @@
                 <div class="categories-title" id="category1-title">VERANÓPOLIS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/veranopolis/1.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/veranopolis/1.webp" alt="">
                 </div>
             </a>
         </div>
