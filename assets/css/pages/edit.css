@@ -17,12 +17,18 @@ main {
 }
 
 #category-title {
-    margin: 96px 0 32px 0;
+    margin: 96px 0 0 0;
     color: var(--color-golden);
     font-size: clamp(3rem, 4vw + 1rem, 5rem);
     line-height: 0.85;
     animation: slideDown 1s cubic-bezier(0.25, 1, 0.4, 1) forwards;
 }
+
+#category-advice {
+    font-family: var(--font-secondary);
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.3);
+}   
 
 @keyframes slideDown {
     from {transform: translateY(-200px);}
@@ -30,6 +36,7 @@ main {
 }
 
 #gallery-section {
+    margin-top: 32px;
     max-width: 1000px;
     padding: 0.5rem;
     display: grid;

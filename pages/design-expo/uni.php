@@ -1,6 +1,8 @@
 <?php
     $cssPage = 'uni.css';
     $cssExpo = 'design-expo.css';
+    $titlePage = ' — Design';
+
 
     require_once __DIR__ . '/../../includes/header.php';
     require_once __DIR__ . '/../../includes/menu.php';

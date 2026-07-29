@@ -1,6 +1,8 @@
 <?php
     $activePage = 'sobre';
     $cssPage = 'sobre.css';
+    $titlePage = ' — Sobre';
+
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -32,9 +34,9 @@
 
             <div class="about-categories-title">DESIGN</div>
             <div class="about-categories-text">
-                Desde de criança desenhar fazia parte de mim. Na pandemia, aos 14 anos, iniciei a transferir meus escudos e camisas de futebol para o digital, ainda pelo Canva. Foi quando criei minha conta de design no instagram e troquei experiências com outros designers ao redor do mundo. <br>
-                Com o passar do tempo, o interesse por identidade visual no geral foi me intrigando cada vez mais, saindo da bolha do esporte. Também iniciei a colaborar na igreja local fazendo logos e artes para culto. É quase um hobbie passar tempo vendo referências sobre. <br>
-                Do Canva inicialmente, passei para o Inkscape, onde fiz maior parte das minhas produções, e mais recentemente tenho me adaptado ao pacote Adobe.
+                Desde pequeno, o desenho sempre fez parte da minha vida. Durante a pandemia, aos 14 anos, comecei a transformar meus escudos e camisas de futebol em projetos digitais, ainda utilizando o Canva. Foi nesse período que criei minha página de design no Instagram, onde tive a oportunidade de compartilhar trabalhos e trocar experiências com designers de diferentes partes do mundo. <br> <br>
+                Com o tempo, meu interesse por identidade visual foi além do universo esportivo e passou a abranger o design como um todo. Também comecei a colaborar com a minha igreja local, desenvolvendo logotipos e peças gráficas para cultos e eventos. Buscar referências, estudar novas abordagens e observar diferentes estilos tornou-se um hábito que mantenho até hoje. <br> <br>
+                Minha trajetória começou no Canva, evoluiu para o Inkscape — ferramenta na qual desenvolvi grande parte dos meus projetos — e, mais recentemente, passei a trabalhar com o pacote Adobe, ampliando minhas possibilidades criativas e aperfeiçoando meu processo de criação. <br>
             </div>
 
         </div>
@@ -42,26 +44,26 @@
         <div class="about-categories hidden-scroll">
             <div class="about-categories-title">FOTO</div>
             <div class="about-categories-text">
-                Meu primeiro interesse foi vídeo, assistindo influencers de viagem na internet produzindo conteúdos cinematográficos. Havendo uma câmera em casa que não estava sendo utilizada, comecei a tirar fotos e aprender por conta própria.<br>
-                Fotografia foi o meu primeiro ministério, onde pude me aperfeiçoar e encontrar pela primeira vez algo que eu pudesse contribuir, participando de vários eventos.<br>
-                Também comecei a fazer freelances de casamentos civis, entre outros, com o objetivo de me encontrar na fotografia. 
+                Meu primeiro contato com o audiovisual foi através do vídeo. Inspirado por criadores de conteúdo de viagem e pela estética cinematográfica de suas produções, despertei o interesse por contar histórias por meio das imagens. Como havia uma câmera em casa sem uso, aproveitei a oportunidade para começar a fotografar e aprender de forma autodidata. <br> <br>
+                A fotografia foi o meu primeiro ministério na igreja, onde encontrei uma maneira de servir e contribuir com aquilo que fazia. Ao longo desse período, participei da cobertura de diversos eventos, desenvolvendo meu olhar, minha técnica e a sensibilidade para registrar momentos de forma autêntica. <br> <br>
+                Buscando ampliar minha experiência, também realizei trabalhos como freelancer, incluindo casamentos civis, ensaios, e outros eventos. Cada projeto foi uma oportunidade de evoluir, experimentar diferentes estilos e consolidar minha identidade como fotógrafo.
             </div>
         </div>
 
         <div class="about-categories hidden-scroll">
             <div class="about-categories-title">VÍDEO</div>
             <div class="about-categories-text">
-                O que você menos viu até aqui é minha área de maior interesse. Considero que design e fotografia me ajudaram a ter um bom olhar ao longo do tempo para expandir para a produção de vídeo, que é o meu objetivo desde o início.<br>
-                Minha bagagem até hoje são edições ainda bem básicas pelo Premiere com filmagens de celular, e tenho juntado recursos para adquirir uma câmera ideal para produzir com qualidade. <br>
-                A decisão de por finalmente mão nesse processo é recente e estou acelerando meu desenvolvimento.
+                Embora o vídeo tenha aparecido menos até aqui, ele sempre foi o meu principal objetivo. Acredito que a experiência adquirida com design e fotografia foi essencial para desenvolver um olhar mais apurado sobre composição, narrativa e estética — fundamentos que hoje aplico na produção audiovisual. <br> <br>
+                Minha experiência prática ainda está em construção. Até o momento, desenvolvi projetos utilizando o Adobe Premiere com filmagens feitas por celular e câmera, enquanto me preparo para investir no equipamento ideal e elevar a qualidade das minhas produções. <br> <br>
+                Foi recentemente que decidi direcionar meus esforços de forma definitiva para essa área. Desde então, tenho acelerado meu processo de aprendizado, buscando evoluir constantemente em técnica, linguagem e criatividade para transformar essa paixão na minha principal forma de expressão.
             </div>
         </div>
 
         <div class="about-categories hidden-scroll">
             <div class="about-categories-title">PORTFÓLIO</div>
             <div class="about-categories-text">
-                Esse portfólio tem o objetivo de expor minhas principais atuações e produções ao longo do tempo para conseguir oportunidades de atuação nessas áreas.<br>
-                Produzido com HTML, CSS, PHP e Javascript, também como forma de estudo.
+                Este portfólio reúne os principais projetos e experiências que marcaram a minha trajetória em design, fotografia e produção audiovisual. Mais do que uma vitrine do meu trabalho, ele representa minha evolução, meus interesses e a forma como enxergo a criatividade como ferramenta para comunicar ideias e contar histórias. <br> <br>
+                Além de apresentar minhas produções, este site também faz parte do meu processo de aprendizado. Foi desenvolvido por mim utilizando HTML, CSS, PHP e JavaScript, unindo meu interesse pelo desenvolvimento web à construção de um espaço que representa minha identidade profissional.
             </div>
         </div>
     </section>

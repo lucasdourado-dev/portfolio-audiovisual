@@ -1,6 +1,7 @@
 <?php
     $activePage = 'foto';
     $cssPage = 'foto.css';
+    $titlePage = ' — Foto';
     require_once __DIR__ . '/../includes/header.php';
     require_once __DIR__ . '/../includes/menu.php';
 ?>
@@ -61,7 +62,7 @@
 
         <div class="categories" id="category4">
             <a class="categories-links hidden-scroll" id="category-link-4" href="<?= $basePath; ?>/pages/foto-categories/edit.php">
-                <div class="categories-title" id="category3-title">EDIT</div>
+                <div class="categories-title" id="category3-title">EDIT [EXTRA]</div>
 
                 <div class="categories-preview">
                     <img src="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0357.jpg" alt="">
