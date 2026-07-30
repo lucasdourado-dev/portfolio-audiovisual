@@ -56,21 +56,12 @@ document.addEventListener('click', (e) => {
     }, 500);
 });
 
-
-// const intro = document.querySelector(".intro-blur");
-
-// const maxScroll = window.innerHeight; // distância em que o efeito termina
-
-// window.addEventListener("scroll", () => {
-//     const progress = Math.min(window.scrollY / maxScroll, 1);
-
-//     // Ajuste os valores como preferir
-//     const blur = progress * 20;      // 0 → 20px
-//     const opacity = 1 - progress;    // 1 → 0
-
-//     intro.style.filter = `blur(${blur}px)`;
-//     intro.style.opacity = opacity;
-// });
+window.addEventListener('pageshow', (event) => {
+    if (event.persisted) {
+        const transition = document.querySelector('.transition-leaving');
+        if (transition) transition.classList.remove('active');
+    }
+});
 
 const intro = document.querySelector(".intro-blur");
 
@@ -86,3 +77,4 @@ window.addEventListener("scroll", () => {
     intro.style.filter = `blur(${progress * 20}px)`;
     intro.style.opacity = 1 - progress;
 });
+

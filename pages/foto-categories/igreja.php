@@ -14,127 +14,18 @@
     <section id="gallery-section">
 
         <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/4c9ae4bf-9323-4e27-aef1-92c123c9a4eb.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/4c9ae4bf-9323-4e27-aef1-92c123c9a4eb_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/DSCF5225.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/DSCF5225_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0114.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0114_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0123.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0123_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0164.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0164_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/55050965728_263d29178e_o.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/55050965728_263d29178e_o_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/55058395469_72fd2450b2_o.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/55058395469_72fd2450b2_o_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0207.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0207_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0231.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0231_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0256.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0256_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0268.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0268_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0291.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0291_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_3585.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_3585_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_4300.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_4300_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/4c9ae4bf-9323-4e27-aef1-92c123c9a4eb.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/4c9ae4bf-9323-4e27-aef1-92c123c9a4eb_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
@@ -213,15 +104,6 @@
             </a>
         </div>
         <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5597.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_5597_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5987.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_5987_thumb.webp"
@@ -261,15 +143,6 @@
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_6331.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_6331_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_6498.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_6498_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
@@ -330,24 +203,6 @@
             </a>
         </div>
         <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8555.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8555_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <!-- <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8556.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8556_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div> -->
-        <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8714.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8714_thumb.webp"
@@ -360,6 +215,88 @@
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8743.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8743_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_9292.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_9292_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_9334.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_9334_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0114.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0114_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0123.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0123_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0256.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0256_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0291.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0291_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/DSCF5225.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/DSCF5225_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_5597.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_5597_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8555.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8555_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
@@ -383,6 +320,18 @@
                     decoding="async">
             </a>
         </div>
+
+        
+        <!-- <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_8556.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_8556_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div> -->
+        
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_9022.jpg" data-fancybox="gallery">
                 <img
@@ -447,24 +396,77 @@
             </a>
         </div>
         <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_9292.jpg" data-fancybox="gallery">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_3585.jpg" data-fancybox="gallery">
                 <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_9292_thumb.webp"
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_3585_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
             </a>
         </div>
         <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_9334.jpg" data-fancybox="gallery">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/55050965728_263d29178e_o.jpg" data-fancybox="gallery">
                 <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_9334_thumb.webp"
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/55050965728_263d29178e_o_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
             </a>
         </div>
-        
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0207.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0207_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0231.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0231_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/55058395469_72fd2450b2_o.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/55058395469_72fd2450b2_o_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0164.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0164_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_0268.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_0268_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/igreja/IMG_6498.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/igreja/thumbs/IMG_6498_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
         
         
     </section>
@@ -473,5 +475,5 @@
 <?php
     $pageJs = $basePath . '/assets/js/pages/foto-cat1.js';
     $menu = $basePath . '/assets/js/global/menu.js';
-    require_once __DIR__ . '/../../includes/footer.php';
+    require_once __DIR__ . '/../../includes/footer-igreja.php';
 ?>

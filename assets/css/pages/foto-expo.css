@@ -1,5 +1,5 @@
 .transition-entering {
-    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) 2.25s forwards;
+    animation: slideUpTransition .5s cubic-bezier(.86,0,.83,.67) 1.5s forwards;
 }
 
 .top-bar {
@@ -35,19 +35,20 @@ main {
     to {transform: translateY(0);}
 }
 
+/* MASONRY */
+
 #gallery-section {
     margin-top: 32px;
     max-width: 1000px;
     padding: 0.5rem;
-    column-count: 2;
+    column-count: 1;
     column-gap: 0.5rem;
     gap: 0.5rem;
 
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
 }
 
 .gallery-item {
-    cursor: pointer;
     margin-bottom: 0.5rem;
 }
 
@@ -56,7 +57,6 @@ main {
 }
 
 .gallery-item img:hover {
-    /* filter: brightness(0.8); */
     opacity: 0.8;
 }
 
@@ -73,6 +73,53 @@ main {
 .is-left, .f-button{
     display: none !important;
 } 
+
+@media (min-width: 768px) {
+    #gallery-section {
+        column-count: 2;
+        column-gap: 1rem;
+        gap: 1rem;
+    }
+}
+
+/* IGREJA */
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2000;
+
+    padding-top: 4rem;
+}
+
+#footer-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-texts-igreja {
+    color: white;
+    font-family: var(--font-secondary);
+}
+
+.footer-texts-igreja-copy {
+    color: rgba(255, 255, 255, 0.1);
+    font-family: var(--font-secondary);
+}
+
+#footer-logo-igreja {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 23vw;
+    line-height: 0.7;
+    margin-top: 2rem;
+    margin-bottom: -9vw; 
+}
 
 
 

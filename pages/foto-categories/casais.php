@@ -13,9 +13,6 @@
 
     <section id="gallery-section">
 
-        <div class="gallery-item">
-            <img src="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_1212.jpg" alt="" data-fancybox="gallery">
-        </div>
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_1212.jpg" data-fancybox="gallery">
@@ -58,6 +55,79 @@
             <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_1459.jpg" data-fancybox="gallery">
                 <img
                     src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_1459_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9366.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9366_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9351.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9351_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9379.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9379_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9543.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9543_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9578.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9578_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9591.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9591_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9713.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9713_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9716.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9716_thumb.webp"
                     alt=""
                     loading="lazy"
                     decoding="async">
@@ -126,78 +196,7 @@
                     decoding="async">
             </a>
         </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9351.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9351_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9366.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9366_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9379.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9379_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9543.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9543_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9578.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9578_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9591.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9591_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9713.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9713_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/casais/IMG_9716.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/casais/thumbs/IMG_9716_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
+        
         
         
     </section>

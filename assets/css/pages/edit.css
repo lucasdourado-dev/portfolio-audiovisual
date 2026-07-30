@@ -51,8 +51,12 @@ main {
     /* margin-bottom: 0.5rem; */
 }
 
+.gallery-item img {
+    transition: 0.25s ease;
+}
+
 .gallery-item img:hover {
-    filter: brightness(0.8);
+    opacity: 0.8;
 }
 
 /* Esconde de forma absoluta as setas anteriores e próximas do Fancybox */
