@@ -13,7 +13,8 @@
         <div class="name" id="last-name">MARTINS</div>
     </div>
     <p id="legend"> 
-        PORTFÓLIO PESSOAL
+        <span>PORTFÓLIO PESSOAL</span>
+        <span id="legend-copy">&copy; 2026 Todos os direitos reservados.</span>
     </p>
 </main>
 

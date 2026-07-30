@@ -1,9 +1,9 @@
-    <footer>
+<footer>
         <div id="footer-text-container">
-            <div class="footer-texts" id="contact-link"><a href="<?= $basePath; ?>/pages/contato.php">Vamos trabalhar juntos!</div>
-            <div class="footer-texts">&copy; 2026 Todos os direitos reservados.</div>
+            <div class="footer-texts-igreja">Dele, por Ele, para Ele.</div>
+            <div class="footer-texts-igreja-copy">&copy; 2026 Todos os direitos reservados.</div>
         </div>
-        <div id="footer-logo">DOURADO</div>
+        <div id="footer-logo-igreja">DOURADO</div>
     </footer>
     <div class="transition-leaving"></div>
 

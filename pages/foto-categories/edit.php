@@ -13,6 +13,28 @@
 
     <section id="gallery-section">
 
+
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0501-0.jpeg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0501-0_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0501.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0501_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+
+
+
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0357-0.jpeg" data-fancybox="gallery">
                 <img
@@ -32,25 +54,8 @@
                     decoding="async">
             </a>
         </div>
-        
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0501-0.jpeg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0501-0_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0501.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0501_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
+
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8949-0.jpeg" data-fancybox="gallery">
@@ -71,24 +76,9 @@
             </a>
         </div>
 
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8799-0.jpeg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_8799-0_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8799.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_8799_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
+
+
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8831-0.jpeg" data-fancybox="gallery">
@@ -109,6 +99,10 @@
             </a>
         </div>
 
+
+
+
+
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0598-0.jpeg" data-fancybox="gallery">
                 <img
@@ -127,6 +121,10 @@
                     decoding="async">
             </a>
         </div>
+
+
+
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0358-0.jpeg" data-fancybox="gallery">
@@ -147,6 +145,10 @@
             </a>
         </div>
 
+
+
+
+
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_1280-0.jpeg" data-fancybox="gallery">
                 <img
@@ -165,6 +167,27 @@
                     decoding="async">
             </a>
         </div>
+
+
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8799-0.jpeg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_8799-0_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_8799.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_8799_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_9639-0.jpeg" data-fancybox="gallery">
@@ -185,24 +208,7 @@
             </a>
         </div>
 
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164-0.jpeg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0164-0_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
-        <div class="gallery-item">
-            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164.jpg" data-fancybox="gallery">
-                <img
-                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0164_thumb.webp"
-                    alt=""
-                    loading="lazy"
-                    decoding="async">
-            </a>
-        </div>
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_4300-0.jpeg" data-fancybox="gallery">
@@ -223,6 +229,10 @@
             </a>
         </div>
 
+
+
+
+
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_6306-0.jpeg" data-fancybox="gallery">
                 <img
@@ -241,6 +251,33 @@
                     decoding="async">
             </a>
         </div>
+
+
+
+
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164-0.jpeg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0164-0_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+        <div class="gallery-item">
+            <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0164.jpg" data-fancybox="gallery">
+                <img
+                    src="<?= $basePath; ?>/assets/media/img-photo/edit/thumbs/IMG_0164_thumb.webp"
+                    alt=""
+                    loading="lazy"
+                    decoding="async">
+            </a>
+        </div>
+
+
+
+
+
 
         <div class="gallery-item">
             <a href="<?= $basePath; ?>/assets/media/img-photo/edit/IMG_0268-0.jpeg" data-fancybox="gallery">

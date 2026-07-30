@@ -29,7 +29,7 @@
                 <div class="categories-title" id="category1-title">HERMANOS</div>
 
                 <div class="categories-preview">
-                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/hermanos/01.png" alt="">
+                    <img src="<?= $basePath; ?>/assets/media/img-design/id-visual/hermanos/01.webp" alt="">
                 </div>
             </a>
         </div>

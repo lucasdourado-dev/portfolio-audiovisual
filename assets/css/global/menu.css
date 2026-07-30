@@ -39,8 +39,6 @@ header {
     padding: 0 1rem;
     border-radius: 1rem;
 
-    /* background-color: var(--color-golden); */
-    /* background-color: black; */
     background-color: rgba(0, 0, 0, 0.4);
     border: 1px var(--color-golden) solid;
     -webkit-backdrop-filter: blur(12px);
@@ -66,7 +64,6 @@ header {
 .menu-word {
     font-family: var(--font-main);
     font-size: 1rem;
-    /* color: black; */
     color: var(--color-golden);
     cursor: pointer;
 }

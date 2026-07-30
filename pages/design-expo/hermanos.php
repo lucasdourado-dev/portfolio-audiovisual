@@ -19,6 +19,9 @@
             <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/02.webp" alt="">
         </div>
         <div class="expo-frames">
+            <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/001.webp" alt="">
+        </div>
+        <div class="expo-frames">
             <img src="<?= $basePath ?>/assets/media/img-design/id-visual/hermanos/03.webp" alt="">
         </div>
         <div class="expo-frames">
