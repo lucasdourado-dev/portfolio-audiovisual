@@ -52,7 +52,7 @@
             <div id="description-title">Escudos de Futebol / 2022 - 2024</div>
             <div id="description-text">
                 Desde pequeno eu sempre dei uma atenção especial a escudos de futebol, algo que me entretém muito até hoje. <br>
-                Esses são alguns redesigns de escudos de futebol que eu fiz nos últimos anos, com o intuito de repaginar o visual de algumas equipes. <br>
+                Esses são alguns redesigns que eu fiz nos últimos anos, com o intuito de repaginar o visual de algumas equipes. <br>
                 Você pode ver os detalhes e processos de cada um deles na minha conta de design do <a href="https://www.instagram.com/madebydourado/" target="_blank" rel="noopener noreferrer" id="insta-account">instagram</a>.
             </div>
         </div>
