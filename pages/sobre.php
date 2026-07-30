@@ -55,7 +55,8 @@
             <div class="about-categories-text">
                 Embora o vídeo tenha aparecido menos até aqui, ele sempre foi o meu principal objetivo. Acredito que a experiência adquirida com design e fotografia foi essencial para desenvolver um olhar mais apurado sobre composição, narrativa e estética — fundamentos que hoje aplico na produção audiovisual. <br> <br>
                 Minha experiência prática ainda está em construção. Até o momento, desenvolvi projetos utilizando o Adobe Premiere com filmagens feitas por celular e câmera, enquanto me preparo para investir no equipamento ideal e elevar a qualidade das minhas produções. <br> <br>
-                Foi recentemente que decidi direcionar meus esforços de forma definitiva para essa área. Desde então, tenho acelerado meu processo de aprendizado, buscando evoluir constantemente em técnica, linguagem e criatividade para transformar essa paixão na minha principal forma de expressão.
+                Foi recentemente que decidi direcionar meus esforços de forma definitiva para essa área. Desde então, tenho acelerado meu processo de aprendizado, buscando evoluir constantemente em técnica, linguagem e criatividade para transformar essa paixão na minha principal forma de expressão. <br> <br>
+                Também possuo um anseio pessoal a longo prazo de produzir conteúdo cinematográfico cristão de alta qualidade, com o intuito de espalhar o Palavra do Evangelho por meio do meu olhar.
             </div>
         </div>
 
